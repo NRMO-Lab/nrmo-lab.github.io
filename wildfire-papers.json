@@ -1,0 +1,223 @@
+[
+  {
+    "id": "hourly-progression",
+    "match": "Satellite-based analysis of hourly progression",
+    "title": "Tracking wildfire growth hour by hour",
+    "summary": "Using GOES satellite observations, we examined hourly progression and environmental drivers of large U.S. wildfires. The study connects patterns of rapid fire growth with weather, terrain, and vegetation, providing observational evidence for understanding fast-moving fires. Our results identify Northern California and the Central Great Plains as two key regions experiencing rapid progression during large wildfires. The fastest recorded progression rate was 320 km²/h on February 27, 2024, during the Smokehouse Creek Fire in Texas.",
+    "steps": [
+      "GOES observations",
+      "Hourly fire progression",
+      "Weather & landscape drivers"
+    ],
+    "source": "https://doi.org/10.1016/j.jag.2026.105288",
+    "figure": "assets/research/hourly-progression-map.png",
+    "figureAlt": "Map of the contiguous United States showing maximum hourly progression rates of large wildfires, with colors ranging from 50 or less to 300 or more square kilometers per hour.",
+    "figureCaption": "Maximum hourly progression rates of large U.S. wildfires (km²/h). Figure from Fang et al. (2026), supplied by the lab.",
+    "figureWidth": 479,
+    "figureHeight": 396
+  },
+  {
+    "id": "large-fires",
+    "match": "A growing importance of large fires",
+    "title": "Understanding the growing role of large fires",
+    "summary": "We analyzed large-fire activity across the conterminous United States during 1984–2012, examining fire size and burn severity. The study documents the increasing significance of large fires and shows why burn severity matters when assessing their effects. Our work suggests that continued warming and drying during the twenty-first century could increase total burned area and fire emissions by promoting larger and more severe wildfires.",
+    "steps": [
+      "Fire records: 1984–2012",
+      "Fire size & burn severity",
+      "Large-fire patterns"
+    ],
+    "source": "https://doi.org/10.1002/2015JG002965",
+    "figure": "assets/research/large-fires-burned-area.png",
+    "figureAlt": "Stacked bar chart showing interannual variation in burned area in the conterminous United States during 1984–2012, divided into large, very-large, and ultra-large fire categories.",
+    "figureCaption": "Interannual variation in burned area in the conterminous United States during 1984–2012. L: large fires; VL: very-large fires; UL: ultra-large fires. Burned area is expressed in km². Figure from Yang et al. (2015), supplied by the lab.",
+    "figureWidth": 550,
+    "figureHeight": 275
+  },
+  {
+    "id": "global-history",
+    "match": "Spatial and temporal patterns of global burned area",
+    "title": "Reconstructing global fire history",
+    "summary": "We reconstructed global burned-area patterns for the twentieth and early twenty-first centuries and examined their relationships with environmental and human influences. The average global burned area is approximately 442 × 10⁴ km² yr⁻¹ during 1901–2007, and our results suggest a notable declining rate of burned area globally (1.28 × 10⁴ km² yr⁻¹).",
+    "steps": [
+      "Environmental conditions",
+      "Human influences",
+      "Global burned-area history"
+    ],
+    "source": "https://doi.org/10.1002/2013JG002532",
+    "figure": "assets/research/global-burned-area-decades.png",
+    "figureAlt": "Bar chart showing decadal variation in global burned area from the 1900s to the 2000s, with error bars indicating the standard deviation of annual burned area within each decade.",
+    "figureCaption": "Decadal variation in global burned area. Error bars indicate the standard deviation of annual burned area within each decade. Figure from Yang et al. (2014), supplied by the lab.",
+    "figureWidth": 664,
+    "figureHeight": 315
+  },
+  {
+    "id": "spread-assessment",
+    "match": "Wildfire Danger Assessment",
+    "title": "Assessing fire danger through simulated fire spread",
+    "summary": "We developed a fire danger assessment framework based on fire-spread simulations and simulated fire size. Its application in the Southern Great Plains demonstrates how fire behavior modeling can complement empirical fire danger ratings when evaluating fire potential. This study highlights the potential of simulation-based approaches for wildfire danger assessment and forecasting.",
+    "steps": [
+      "Weather, fuels & terrain",
+      "Fire-spread simulations",
+      "Fire danger assessment"
+    ],
+    "source": "https://connectsci.au/wf/article/35/8/WF25278/274263/Wildfire-danger-assessment-and-forecast-through",
+    "figure": "assets/research/fire-danger-assessment-workflow.png",
+    "figureAlt": "Workflow for simulation-based wildfire danger assessment and forecasting, connecting input preparation, multiyear fire simulations, statistical distributions, target-day simulations, and fire danger assessment.",
+    "figureCaption": "Framework for wildfire danger assessment and forecasting through fire-spread simulations. Historical simulations establish fire-size distributions, which provide a reference for assessing target-day fire potential. Figure from Yang et al. (2026), supplied by the lab.",
+    "figureWidth": 2835,
+    "figureHeight": 1775
+  },
+  {
+    "id": "hourly-moisture",
+    "match": "Generating a downscaled hourly",
+    "title": "Resolving soil moisture for wildfire prediction",
+    "summary": "We developed a downscaled hourly surface soil moisture dataset and explored its use for wildfire prediction across the contiguous United States. The work links hydrological information with fire research by improving the spatial detail of hourly soil moisture estimates.",
+    "steps": [
+      "Hourly soil moisture",
+      "Spatial downscaling",
+      "Wildfire prediction"
+    ],
+    "source": "https://doi.org/10.1016/j.jhydrol.2025.133795",
+    "figure": "assets/research/soil-moisture-burning-area.png",
+    "figureAlt": "Bar chart showing burning area by fraction of available water (FAW): 66.0 percent for FAW below 0.2, 17.1 percent for FAW between 0.2 and 0.4, and 16.9 percent for FAW above 0.4.",
+    "figureCaption": "Burning area by fraction of available water (FAW) category: 66.0% for FAW < 0.2, 17.1% for 0.2 < FAW < 0.4, and 16.9% for FAW > 0.4. Figure from Yang et al. (2025), supplied by the lab.",
+    "figureWidth": 383,
+    "figureHeight": 191
+  },
+  {
+    "id": "prescribed-burning",
+    "match": "Model-based assessment of prescribed burning frequency",
+    "title": "Evaluating prescribed-burning frequency in tallgrass prairie",
+    "summary": "Using field fuel measurements from the Tallgrass Prairie Preserve and FARSITE simulations, we assessed how prescribed-burning frequency influences potential wildfire behavior. The study connects fuel accumulation, fuel height, and fire weather to the evaluation of grassland fuel-management strategies. Our findings suggest that frequent prescribed burning is necessary to reduce the potential for intense future wildfire behavior in tallgrass prairies and other highly productive grasslands.",
+    "steps": [
+      "Field fuel measurements",
+      "Burning-frequency scenarios",
+      "FARSITE fire behavior"
+    ],
+    "source": "https://doi.org/10.1186/s42408-026-00538-9",
+    "figure": "assets/research/prescribed-burning-fire-behavior.png",
+    "figureAlt": "Fire behavior chart plotting rate of spread against heat per unit area. Marker shapes indicate time since burning, colors indicate Burning Index, and trajectories show changes over time and Burning Index levels. Dashed contours indicate theoretical flame length.",
+    "figureCaption": "Simulated fire behavior across time since burning and Burning Index levels. Red trajectories show changes over time; blue trajectories show changes across Burning Index levels. Dashed contours indicate theoretical flame length. Figure from Desjardins et al. (2026), supplied by the lab.",
+    "figureWidth": 1944,
+    "figureHeight": 1382
+  },
+  {
+    "id": "meteorological-drivers",
+    "match": "Different Meteorological Drivers",
+    "title": "Separating drivers of extreme fire weather and burn probability",
+    "summary": "We examined future wildfire hazard near Amarillo, Oklahoma City, Dallas, and San Antonio. Warming and drying drive projected increases in extreme fire weather days, while wind speed has the strongest association with changes in burn probability, revealing distinct controls on these two measures of hazard.",
+    "steps": [
+      "Future meteorology",
+      "Extreme fire weather",
+      "Simulated burn probability"
+    ],
+    "source": "https://doi.org/10.1016/j.agrformet.2026.111458",
+    "figure": "assets/research/future-burn-probability.png",
+    "figureAlt": "Four panels comparing burn probability near Amarillo, Oklahoma City, Dallas, and San Antonio for 2000–2019, 2040–2059, and 2080–2099 under SSP2–4.5 and SSP5–8.5, with error bars.",
+    "figureCaption": "Burn probability near Amarillo, Oklahoma City, Dallas, and San Antonio for historical and future periods under SSP2–4.5 and SSP5–8.5. Figure from Zhang et al. (2026), supplied by the lab.",
+    "figureWidth": 2675,
+    "figureHeight": 1095
+  },
+  {
+    "id": "future-danger",
+    "match": "Wildfire danger under changing climates",
+    "title": "Projecting Southern Great Plains fire danger",
+    "summary": "We investigated how changing climate conditions may alter wildfire danger in the Southern Great Plains throughout the twenty-first century. The study examines future fire weather and fuel conditions to understand potential shifts in the regional fire environment.",
+    "steps": [
+      "Climate scenarios",
+      "Weather & fuel conditions",
+      "Future wildfire danger"
+    ],
+    "source": "https://www.sciencedirect.com/science/article/pii/S1470160X24014511",
+    "figure": "assets/research/future-burning-index.png",
+    "figureAlt": "Two panels comparing monthly Burning Index for the 1986–2005 baseline with 2040–2059 and 2080–2099 projections under RCP4.5 and RCP8.5, with shaded bands.",
+    "figureCaption": "Monthly Burning Index (BI) for the 1986–2005 baseline and future periods (2040–2059 and 2080–2099) under (A) RCP4.5 and (B) RCP8.5. Figure from Fang et al. (2025), supplied by the lab.",
+    "figureWidth": 2762,
+    "figureHeight": 1206
+  },
+  {
+    "id": "vegetation-recovery",
+    "match": "Continental-scale quantification of post-fire",
+    "title": "Measuring vegetation recovery after fire",
+    "summary": "Using MODIS observations, we quantified post-fire vegetation greenness recovery across temperate and boreal North America. The study examines variation among vegetation types and ecoregions and relates recovery patterns to vegetation composition and fire severity.",
+    "steps": [
+      "MODIS vegetation greenness",
+      "Fire severity & vegetation",
+      "Post-fire recovery"
+    ],
+    "source": "https://doi.org/10.1016/j.rse.2017.07.022",
+    "figure": "assets/research/post-fire-vegetation-recovery.png",
+    "figureAlt": "Maps of fractional NDVI recovery across temperate and boreal North America for all vegetation types, needleleaf trees, broadleaf trees, shrubs, and grasses.",
+    "figureCaption": "Spatial patterns of post-fire vegetation greenness recovery, expressed as fractional NDVI recovery, for (A) all vegetation types, (B) needleleaf trees, (C) broadleaf trees, (D) shrubs, and (E) grasses. Figure from Yang et al. (2017), supplied by the lab.",
+    "figureWidth": 3553,
+    "figureHeight": 2148
+  },
+  {
+    "id": "carbon-balance",
+    "match": "Century-scale patterns and trends",
+    "title": "Connecting fire emissions with terrestrial carbon balance",
+    "summary": "We examined century-scale patterns of global fire-related carbon emissions and the influence of fire on terrestrial carbon balance. The work places fire within the broader carbon cycle, connecting combustion losses with ecosystem carbon dynamics over long timescales.",
+    "steps": [
+      "Global fire history",
+      "Fire carbon emissions",
+      "Terrestrial carbon balance"
+    ],
+    "source": "https://doi.org/10.1002/2015GB005160",
+    "figure": "assets/research/global-fire-carbon-emissions.png",
+    "figureAlt": "Global maps and corresponding latitudinal profiles showing (a) pyrogenic carbon emissions and (b) combustion rate per unit burned area.",
+    "figureCaption": "Global spatial patterns and latitudinal profiles of (a) pyrogenic carbon emissions and (b) combustion rate per unit burned area. Figure from Yang et al. (2015), supplied by the lab.",
+    "figureWidth": 1169,
+    "figureHeight": 957
+  },
+  {
+    "id": "western-emissions",
+    "match": "Projection of future wildfire emissions",
+    "title": "Projecting wildfire emissions in the western United States",
+    "summary": "This collaborative study projects future wildfire emissions in the western United States under climate change. It separates the contributions of changes in burned area, fuel loading, and fuel moisture to clarify how different processes shape future emissions.",
+    "steps": [
+      "Burned area",
+      "Fuel loading & moisture",
+      "Future fire emissions"
+    ],
+    "source": "https://doi.org/10.1071/WF20190",
+    "figure": "assets/research/western-fire-emissions-workflow.png",
+    "figureAlt": "Modeling workflow connecting global and regional climate inputs, WRF and DLEM modeling, fire number and area, vegetation conditions, fuel moisture, fuel loading, and fuel consumption to fire emission projections.",
+    "figureCaption": "Modeling framework for projecting wildfire emissions, integrating climate projections, vegetation and fuel conditions, fire activity, and fuel consumption. Figure supplied by the lab.",
+    "figureWidth": 675,
+    "figureHeight": 439
+  },
+  {
+    "id": "resfire-development",
+    "match": "Development of a REgion",
+    "title": "Developing the RESFire Earth system model",
+    "summary": "We contributed to the development of the Region-Specific Ecosystem Feedback Fire model within the Community Earth System Model. RESFire connects fire occurrence, spread, and impacts with natural and human influences, enabling interactive studies of fire, climate, and ecosystems.",
+    "steps": [
+      "Ignition & spread",
+      "Fire impacts",
+      "Earth system feedbacks"
+    ],
+    "source": "https://doi.org/10.1029/2018MS001368",
+    "figure": "assets/research/resfire-model-framework.png",
+    "figureAlt": "RESFire framework showing fire occurrence and spread under natural and anthropogenic constraints, followed by fire impacts connecting emissions, ecosystem disturbance, and the radiation budget.",
+    "figureCaption": "RESFire model framework linking fire occurrence, fire spread, and fire impacts. Natural and anthropogenic constraints influence ignition and spread, while fire impacts connect emissions, ecosystem disturbance, and the radiation budget. Figure from Zou et al. (2019), supplied by the lab.",
+    "figureWidth": 2128,
+    "figureHeight": 1025
+  },
+  {
+    "id": "climate-feedbacks",
+    "match": "Using CESM-RESFire",
+    "title": "Exploring climate–fire–ecosystem interactions",
+    "summary": "Using CESM-RESFire, this collaborative work investigates interactions among climate, fire, and ecosystems and their implications for decadal climate variability. Coupled modeling provides a way to examine feedbacks that cannot be represented by treating fire and climate as independent processes.",
+    "steps": [
+      "Climate variability",
+      "Fire & ecosystems",
+      "Coupled feedbacks"
+    ],
+    "source": "https://acp.copernicus.org/articles/20/995/2020/",
+    "figure": "assets/research/cesm-resfire-global-results.png",
+    "figureAlt": "Four global maps from the CESM-RESFire study, with blue-to-red color scales and crosshatched regions showing spatial patterns in simulation results.",
+    "figureCaption": "Global spatial patterns from the CESM-RESFire climate–fire–ecosystem study. Figure from Zou et al. (2020), supplied by the lab.",
+    "figureWidth": 2067,
+    "figureHeight": 1308
+  }
+]

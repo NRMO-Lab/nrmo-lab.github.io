@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Natural Resource Modeling and Observation Lab scissortail flycatcher</title>
+<desc id="desc">A scissortail flycatcher flying to the right, with spread feathered wings, a long forked tail, a pale body, and orange flanks.</desc>
+<circle cx="40" cy="40" r="37" fill="#F0EDDF" stroke="#244E43" stroke-width="0.9"/>
+<g transform="translate(5.2 5.2) scale(.87)"><!-- The two long outer tail feathers form the characteristic scissors. -->
+<path d="M38 39C26 32 17 24 9 14c3 12 13 23 27 29Z" fill="#344C48"/>
+<path d="M38 42C26 46 17 56 11 68c11-7 19-15 29-23Z" fill="#344C48"/>
+<path d="M35 39C24 32 18 26 13 21c5 8 13 15 23 20ZM36 44c-9 4-16 12-21 19 9-7 15-12 23-17Z" fill="#A6B1A9"/>
+<!-- Raised wing with separated primary feather tips. -->
+<path d="M40 39c-7-6-8-14-5-22 1-2 2 0 2 2-1-5 0-9 2-9 1 0 1 4 1 6 0-7 2-10 3-9 1 1 0 6 0 9 2-8 4-11 5-10 1 1-1 8-2 12 4-9 6-12 7-11 1 1-3 10-4 14 5-8 7-11 8-10 0 2-4 10-6 15l5-6c2-2 2 0 1 2l-7 14-6 6Z" fill="#536963"/>
+<path d="M41 37 40 21m3 14 2-16m0 14 5-12m-3 13 6-9" stroke="#C0C7B9" stroke-width="0.8" stroke-linecap="round"/>
+<!-- Lower wing. -->
+<path d="M42 43c-3 8 2 16 10 21 2 1 3 1 1-2l-2-4c5 7 8 10 9 9 1-1-3-7-5-10 6 7 10 10 10 8 0-1-4-7-7-10 6 5 10 8 10 6 0-1-6-8-9-11l5 3c3 1 2-1 0-3l-13-12Z" fill="#536963"/>
+<path d="m46 47 7 13m-5-15 10 15m-6-14 8 10" stroke="#C0C7B9" stroke-width="0.8" stroke-linecap="round"/>
+<path d="M34 40c5-4 12-6 20-5 3-1 5-3 8-2 3 0 5 2 5 4l-1 2-4 1c-3 1-5 4-9 5-7 2-13 0-19-3l-3-1Z" fill="#D6DAD0" stroke="#344C48" stroke-width="0.7" stroke-linejoin="round"/>
+<path d="M35 39c5-3 10-4 16-3-3 0-5 2-7 4-3 1-6 1-9-1Z" fill="#C58E60"/>
+<path d="M40 43c5 2 10 3 15 0-2 3-8 4-12 2Z" fill="#C58E60"/>
+<path d="m66 36 7 2-7 .3Z" fill="#244E43"/>
+<circle cx="63.5" cy="35.7" r="0.65" fill="#244E43"/></g>
+</svg>

@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2026-07",
+    "category": "Wildfire Research",
+    "title": "New paper introduces a simulation-based framework for wildfire danger forecasting",
+    "summary": "Our paper, “Wildfire danger assessment and forecast through fire spread simulations,” is published in the International Journal of Wildland Fire. We developed the Wildfire Danger Assessment and Forecast (WDAF) framework, which combines weather, fuel, and terrain data to estimate daily fire spread potential. Demonstrated in the Southern Great Plains, the framework offers a complementary approach to existing fire danger rating systems.",
+    "sourceUrl": "https://connectsci.au/wf/article/35/8/WF25278/274263/Wildfire-danger-assessment-and-forecast-through",
+    "doi": "10.1071/WF25278"
+  },
+  {
+    "date": "2026-10",
+    "category": "Water Research",
+    "title": "New paper examines how afforestation and climate change shape water resources",
+    "summary": "Former lab member, Dr. Qiong Wu and coauthors published “Responses of Hydrological Processes to Future Climate Variability and Agricultural Land Afforestation in a Humid River Basin” in Ecohydrology. Using SWAT+ simulations in the Lower Mississippi Alluvial Valley, we find that afforestation can increase shallow groundwater recharge while reducing water yield, highlighting trade-offs for forest restoration and water management under a changing climate.",
+    "sourceUrl": "https://onlinelibrary.wiley.com/doi/full/10.1002/eco.70276",
+    "doi": "10.1002/eco.70276"
+  },
+  {
+    "date": "2026-10",
+    "category": "Wildfire Research",
+    "title": "New paper examines future wildfire hazards in the Southern Great Plains",
+    "summary": "Quan Zhang and coauthors published “Different meteorological drivers govern future extreme fire weather frequency and burn probability in the Southern Great Plains” in Agricultural and Forest Meteorology. The study finds that warming and drying increase extreme fire-weather days, while wind is most strongly associated with changes in simulated burn probability.",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S0168192326004429",
+    "doi": "10.1016/j.agrformet.2026.111458"
+  },
+  {
+    "date": "2026-10",
+    "category": "Wildfire Research",
+    "title": "Near-real-time Hourly Fire Potential Platform enters testing",
+    "summary": "We have developed a new version of our near-real-time Hourly Fire Potential Platform for the contiguous United States (CONUS), which is now being tested. The platform provides hourly data on fuel moisture, fire danger, potential fire behavior, and weather to support wildfire management, prescribed burn planning, and assessment of current fire risk.",
+    "website": "https://jyang-osu.github.io/CONUS-Fire-Potential-Website/",
+    "websiteLabel": "View the Hourly Fire Potential Platform"
+  },
+  {
+    "date": "2026-08",
+    "category": "Research funding",
+    "title": "PhD student Quan Zhang awarded JFSP GRIN funding for grassland wildfire research",
+    "summary": "Congratulations to Quan Zhang on receiving JFSP GRIN funding! Quan will lead a project using remote sensing to map grassland biomass and fuel loads across Oklahoma and examine how fuel accumulation and extreme fire weather interact to shape wildfire risk. The project runs from August 2026 through July 2027.",
+    "href": "wildfire.html",
+    "linkText": "Explore wildfire research"
+  },
+  {
+    "date": "2026-07",
+    "category": "People",
+    "title": "Shangmin Fang and Alex Desjardins complete their graduate degrees",
+    "summary": "Shangmin Fang and Alex Desjardins completed their graduate degrees this summer. Shangmin earned his PhD, and Alex earned his MS. We thank them for their contributions to the lab and wish them well in their next endeavors."
+  },
+  {
+    "date": "2026-07",
+    "category": "Wildfire Research",
+    "title": "New paper explores prescribed burning to reduce fuel load and wildfire risk in Tallgrass Prairie",
+    "summary": "Alex Desjardins and coauthors published a new paper in Fire Ecology, “Model-based assessment of prescribed burning frequency to mitigate wildfire risks in tallgrass prairie.” The study combines field measurements in tallgrass prairie with FARSITE fire behavior simulations to examine fuel accumulation and identify prescribed burning frequencies that can reduce future wildfire risk."
+  },
+  {
+    "date": "2026-07",
+    "category": "People",
+    "title": "Dr. Haoxuan Yang completes postdoctoral fellowship and accepts a faculty position",
+    "summary": "Dr. Haoxuan Yang completed two years as a Postdoctoral Research Fellow in our lab and accepted a faculty position. We thank Haoxuan for his valuable contributions and wish him well as he begins this new chapter in his academic career."
+  }
+]
+
+

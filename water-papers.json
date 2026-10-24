@@ -1,0 +1,132 @@
+[
+  {
+    "id": "arkansas-flow",
+    "match": "River flow decline across",
+    "title": "Projecting river flow across the Arkansas River Basin",
+    "summary": "We projected twenty-first-century river flow across the Arkansas River Basin to investigate how warming and drying may affect water availability. The study identifies declining flow across the major rivers, with particularly strong reductions in the western and southwestern basin, connecting climate change with regional water-resource planning.",
+    "steps": [
+      "Future climate",
+      "Basin hydrology",
+      "River flow"
+    ],
+    "source": "https://doi.org/10.1016/j.jhydrol.2023.129253",
+    "topic": "watersheds"
+  },
+  {
+    "id": "forest-streamflow",
+    "match": "Responses of streamflow to forest expansion",
+    "title": "Linking forest expansion with streamflow in Oklahoma",
+    "summary": "Using SWAT+ simulations in the Little River Watershed, we examined the combined effects of future climate and forest expansion on streamflow. The work connects woody vegetation management with water availability and inflows to Lake Thunderbird, highlighting the implications of changing land cover for water supply.",
+    "steps": [
+      "Climate & forest cover",
+      "SWAT+ simulations",
+      "Streamflow & supply"
+    ],
+    "source": "https://doi.org/10.1016/j.jenvman.2024.120780",
+    "topic": "watersheds"
+  },
+  {
+    "id": "afforestation-hydrology",
+    "match": "Responses of Hydrological Processes",
+    "title": "Evaluating hydrological trade-offs of afforestation",
+    "summary": "Using SWAT+ simulations in the Lower Mississippi Alluvial Valley, we examined evapotranspiration, groundwater recharge, and water yield under future climate and afforestation scenarios. Afforestation can increase shallow groundwater recharge while reducing water yield, highlighting trade-offs for forest restoration and water management.",
+    "steps": [
+      "Afforestation scenarios",
+      "Watershed processes",
+      "Recharge & water yield"
+    ],
+    "source": "https://doi.org/10.1002/eco.70276",
+    "topic": "forests"
+  },
+  {
+    "id": "forest-storage",
+    "match": "Do forests store more water",
+    "title": "Understanding how land cover influences water storage",
+    "summary": "We compared water storage capacity among forests and other land cover types, distinguishing observed storage from intrinsic capacity after accounting for environmental influences. The study shows why climate, terrain, soils, and evapotranspiration must be considered when evaluating the water-related benefits of forests.",
+    "steps": [
+      "Land cover types",
+      "Environmental controls",
+      "Water storage capacity"
+    ],
+    "source": "https://doi.org/10.1016/j.jhydrol.2025.133752",
+    "topic": "forests"
+  },
+  {
+    "id": "conus-irrigation",
+    "match": "Increasing irrigation water requirements",
+    "title": "Anticipating irrigation needs across U.S. croplands",
+    "summary": "We projected irrigation water requirements for major field crops across the contiguous United States under future climate scenarios. The study identifies increasing requirements during the twenty-first century, with the Southern Great Plains and Midwest emerging as important regions for future irrigation planning.",
+    "steps": [
+      "Climate scenarios",
+      "Crop water requirements",
+      "Irrigation planning"
+    ],
+    "source": "https://doi.org/10.1016/j.agwat.2025.110044",
+    "topic": "irrigation"
+  },
+  {
+    "id": "valley-irrigation",
+    "match": "Projection of 21st century irrigation water requirement",
+    "title": "Assessing future irrigation demand in the Mississippi Alluvial Valley",
+    "summary": "We investigated future irrigation water requirements across the Lower Mississippi Alluvial Valley. By examining agricultural water demand under changing climate conditions, this work connects crop production with long-term planning for water resources in a major agricultural region.",
+    "steps": [
+      "Changing climate",
+      "Agricultural water demand",
+      "Regional irrigation needs"
+    ],
+    "source": "https://research.fs.usda.gov/treesearch/58456",
+    "topic": "irrigation"
+  },
+  {
+    "id": "soil-moisture",
+    "match": "A 3 h, 1 km surface soil moisture dataset",
+    "title": "Mapping soil moisture at finer spatial and temporal scales",
+    "summary": "We developed a surface soil moisture dataset for the contiguous United States covering 2015–2023 at 1 km spatial resolution and three-hour intervals. The study combines spatial detail and frequent observations to support analysis of rapidly changing land-surface water conditions.",
+    "steps": [
+      "Soil moisture observations",
+      "Spatiotemporal fusion",
+      "3-hour, 1 km dataset"
+    ],
+    "source": "https://essd.copernicus.org/articles/17/3391/2025/",
+    "topic": "observations"
+  },
+  {
+    "id": "evaporation",
+    "match": "Improvement in the blending",
+    "title": "Improving daily evaporation estimation",
+    "summary": "We improved a method that blends the evaporation–precipitation ratio with a complementary principle function to estimate evaporation. The work addresses calibration of the equilibrium evaporation coefficient and evaluates estimation performance, including under extreme climate conditions.",
+    "steps": [
+      "Water & energy relations",
+      "Improved blended function",
+      "Daily evaporation"
+    ],
+    "source": "https://doi.org/10.1016/j.jhydrol.2024.131170",
+    "topic": "observations"
+  },
+  {
+    "id": "nitrogen",
+    "match": "Long‐Term Trajectory of Nitrogen Loading",
+    "title": "Tracing nitrogen from the Mississippi Basin to the coast",
+    "summary": "This collaborative study uses the Dynamic Land Ecosystem Model to examine long-term nitrogen loading and delivery from the Mississippi River Basin to the Gulf of Mexico. It evaluates natural and human influences, including fertilizer, atmospheric deposition, land use, and climate, linking watershed processes with downstream water quality.",
+    "steps": [
+      "Land inputs & climate",
+      "Ecosystem modeling",
+      "Riverine nitrogen export"
+    ],
+    "source": "https://doi.org/10.1029/2019GB006475",
+    "topic": "exports"
+  },
+  {
+    "id": "carbon-export",
+    "match": "Century-long increasing trend",
+    "title": "Connecting environmental change with riverine carbon export",
+    "summary": "This collaborative work examines the century-long trend and variability of dissolved organic carbon export from the Mississippi River Basin. It investigates natural and human influences on carbon transport, connecting terrestrial ecosystem processes with river networks and downstream carbon delivery.",
+    "steps": [
+      "Natural & human drivers",
+      "Watershed carbon cycling",
+      "Dissolved carbon export"
+    ],
+    "source": "https://doi.org/10.1002/2016GB005395",
+    "topic": "exports"
+  }
+]

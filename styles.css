@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:wght@400;500;600;700&display=swap');
+:root{--paper:#f8f7f2;--ink:#203e35;--muted:#637069;--line:#d9ded5;--orange:#be5739;--serif:'Lora',Georgia,serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font-family:'Nunito Sans',Arial,sans-serif;font-size:15px;line-height:1.75}a{color:inherit;text-decoration:none}button,input,select{font:inherit}a,button,input,select{touch-action:manipulation}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d47a40;outline-offset:5px}h1,h2,h3,h4,p{margin-top:0}h1,h2,h4{font-family:var(--serif);font-weight:400;letter-spacing:-.025em;line-height:1.08}h1{font-size:clamp(48px,5.5vw,82px)}h2{font-size:clamp(38px,4vw,56px);margin-bottom:26px}h3{font-size:21px;line-height:1.4;font-weight:500}p{margin-bottom:23px}.wrap{width:min(1200px,calc(100% - 96px));margin:auto}.section{padding-top:96px;padding-bottom:96px}.eyebrow{font-size:10px;font-weight:700;letter-spacing:2px;line-height:1.6;margin-bottom:28px}.header-inner{max-width:1440px;margin:auto;padding:22px 48px;display:flex;align-items:center;justify-content:space-between;gap:24px}header{background:var(--paper);position:relative;z-index:10;border-bottom:1px solid #e7e9e1}.brand{display:flex;align-items:center;gap:12px;font-size:15px;line-height:1.25}.brand strong{font-weight:600}.brand img{width:45px;height:45px}nav{display:flex;gap:30px;font-size:12px;font-weight:500}nav a{padding:12px 0;position:relative}nav a:hover{color:var(--orange)}nav a[aria-current]:after{content:'';position:absolute;bottom:3px;left:0;width:22px;height:2px;background:var(--orange)}.menu-toggle{display:none}.hero{position:relative;min-height:690px;color:#fff;background:#244438 var(--hero-image) center 58%/cover}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,30,24,.85),rgba(13,32,27,.45) 55%,rgba(9,30,20,.12)),linear-gradient(0deg,#102d2966,transparent 50%)}.hero-content{position:relative;padding-top:85px;padding-bottom:110px}.hero .eyebrow{color:#e3e5d4;font-size:10px}.hero h1{margin-bottom:28px;max-width:850px}.hero h1 em{color:#e3cc9e;font-weight:400}.hero-content>p:not(.eyebrow){color:#e5e9e4;font-size:16px;line-height:1.8}.button{display:inline-flex;gap:45px;align-items:center;background:#ebe9dc;color:#243b30;padding:15px 24px;font-size:12px;font-weight:600;margin-top:8px;transition:background .2s,transform .2s}.button:hover{background:white;transform:translateY(-2px)}.hero-bottom{position:relative;border-top:1px solid #ffffff42;display:flex;justify-content:space-between;padding:21px 0;font-size:9px;letter-spacing:2px}.small-arrow{padding-left:20px;font-size:19px}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px}.intro-grid p:not(.large-copy){color:var(--muted)}.large-copy{font-size:22px;line-height:1.55;letter-spacing:-.3px}.text-link{font-size:12px;display:inline-flex;gap:30px;align-items:center;border-bottom:1px solid #aab4a5;padding:5px 0;font-weight:600}.text-link:hover{color:var(--orange)}.research-section{background:#eaece3}.section-heading{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:40px}.section-heading h2{margin-bottom:0}.section-heading p{font-size:13px;color:var(--muted);margin-bottom:4px}.research-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.research-card{padding:35px 38px;display:block;transition:transform .25s,box-shadow .25s}.research-card:hover{transform:translateY(-5px);box-shadow:0 10px 30px #223b3218}.research-card.wildfire{background:#e8d7c4;color:#693a29}.research-card.water{background:#d2e1db;color:#214c49}.card-top{display:flex;justify-content:space-between;font-size:9px;letter-spacing:1.5px;align-items:center;margin-bottom:38px}.arrow{font-size:28px;line-height:1}.research-card h3{font-size:12px;font-weight:600;margin-bottom:16px}.research-card h4{font-size:43px;margin-bottom:24px}.research-card p{font-size:14px;max-width:430px;opacity:.85}.card-tags{border-top:1px solid currentColor;padding-top:22px;font-size:10px;opacity:.8;margin-top:38px}.methods{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:52px}.methods>div{border-top:1px solid var(--line);padding-top:22px}.methods span{font-size:9px;letter-spacing:2px;color:var(--muted)}.methods h3{margin:22px 0 15px}.methods p{font-size:14px;color:var(--muted)}.papers-section{background:#f0f0e9}.publication{display:grid;grid-template-columns:70px 1fr;gap:26px;border-top:1px solid var(--line);padding:28px 0}.pub-year{font-family:var(--serif);font-size:27px}.publication h3{font-size:19px;margin:12px 0}.publication p{font-size:12px;margin-bottom:5px;color:var(--muted)}.publication .journal{font-style:italic;color:var(--ink)}.tag{font-size:9px;text-transform:uppercase;letter-spacing:1.4px;font-weight:600}.tag.wildfire{color:#a34f32}.tag.water{color:#32716e}footer{background:#1d3b32;color:#e7eade}.footer-top{display:grid;grid-template-columns:1.4fr 1fr auto;gap:40px;padding-top:65px;padding-bottom:50px}.footer-brand{font-family:var(--serif);font-size:34px;line-height:1.2}.footer-brand em{color:#d7c399;font-style:normal}.footer-top p{font-size:12px;margin:0 0 12px;color:#c3cfc4}.back-top{font-size:11px}.footer-bottom{border-top:1px solid #ffffff25;display:flex;justify-content:space-between;padding-top:22px;padding-bottom:22px;font-size:10px;color:#b3c1b5}.osu{color:#d5c49e;font-size:9px;letter-spacing:1.5px}.page-intro{padding-top:75px;padding-bottom:65px}.page-intro h1{font-size:clamp(47px,5.5vw,76px);margin-bottom:25px}.lead{max-width:680px;font-size:18px;color:var(--muted);margin-bottom:0}.feature-band{padding:65px 0;background-size:cover;background-position:center;color:white}.feature-band p{font-family:var(--serif);font-size:43px;line-height:1.15;margin-bottom:25px}.feature-band span{font-size:9px;letter-spacing:2px}.fire-band{background-color:#72482e;background-image:radial-gradient(ellipse at 85% 110%,#d8904777,transparent 65%),repeating-radial-gradient(ellipse at 80% 130%,transparent 0,transparent 26px,#f4d6ac22 27px,transparent 28px)}.chips{display:flex;flex-wrap:wrap;gap:8px}.chips span{border:1px solid #cbd3c7;padding:6px 12px;font-size:10px}.projects{display:grid;grid-template-columns:1fr 1fr;gap:36px 60px;margin-top:40px}.project{border-top:1px solid #bfc9bb;padding-top:24px}.project .eyebrow{font-size:9px;margin-bottom:15px}.project h3{font-size:23px}.project p{color:var(--muted);font-size:14px}.profile{display:grid;grid-template-columns:340px 1fr;gap:85px;padding-top:20px}.profile-art{background:#e0e5d8;color:#537560;align-self:start;position:relative}.profile-art svg{display:block;width:100%}.profile-art span{position:absolute;bottom:26px;left:36px;font-size:10px;letter-spacing:2px}.profile h2{font-size:60px;margin-bottom:12px}.profile h3{margin-top:35px;font-size:17px}.profile p{color:var(--muted)}.profile .large-copy{color:var(--ink);margin-bottom:5px}.course-list{padding:0;list-style:none}.course-list li{padding:14px 0;border-bottom:1px solid var(--line);font-size:14px}.publications-body{padding-bottom:90px}.filter-bar{display:grid;grid-template-columns:2fr 1fr 1fr;gap:20px;padding:25px;background:#eaece3;margin-bottom:25px}.filter-bar label{display:flex;flex-direction:column;gap:8px;font-size:11px;font-weight:600}.filter-bar input,.filter-bar select{width:100%;border:1px solid #c8d1c2;background:var(--paper);border-radius:0;padding:12px;color:var(--ink);font-size:13px;min-height:46px}#result-count,.source-note{font-size:12px;color:var(--muted)}.source-note{margin-top:32px}#no-results{padding:40px 0}[hidden]{display:none!important}.skip-link{position:absolute;left:12px;top:-100px;padding:10px;background:white;z-index:100}.skip-link:focus{top:12px}
+@media(min-width:1600px){.hero{min-height:760px}.hero-content{padding-top:110px;padding-bottom:140px}}@media(max-width:1000px){.header-inner{padding:20px 28px}nav{gap:17px;font-size:11px}.wrap{width:calc(100% - 64px)}.intro-grid{gap:45px}.profile{grid-template-columns:270px 1fr;gap:45px}.research-card{padding:28px}.research-card h4{font-size:36px}.methods{gap:28px}.brand{font-size:12px;gap:8px}.brand img{width:34px;height:34px}}
+@media(max-width:760px){.header-inner{padding:17px 22px;flex-wrap:wrap}.brand{font-size:13px}.brand img{width:36px;height:36px}.menu-toggle{display:flex;gap:12px;align-items:center;border:1px solid #bdc9bc;padding:6px 12px;background:transparent;color:var(--ink);font-size:12px}nav{display:none;width:100%;flex-direction:column;gap:0;padding:8px 0}nav.open{display:flex}nav a{padding:12px 0;font-size:14px}nav a[aria-current]:after{bottom:9px;width:18px}.wrap{width:calc(100% - 44px)}.hero{min-height:620px}.hero-content{padding-top:65px;padding-bottom:65px}.hero h1{font-size:clamp(42px,8.2vw,60px)}.hero .eyebrow{font-size:8px;letter-spacing:1.5px}.hero-content>p:not(.eyebrow){font-size:14px}.hero-bottom{font-size:7px;letter-spacing:1px;gap:20px}.hero-bottom>span:last-child{display:none}.section{padding-top:62px;padding-bottom:62px}.intro-grid,.research-grid,.projects,.profile{grid-template-columns:1fr;gap:32px}.large-copy{font-size:20px}.section-heading{display:block;margin-bottom:30px}.section-heading>p,.section-heading>.text-link{margin-top:20px}.research-card h4{font-size:42px}.card-top{margin-bottom:24px}.methods{grid-template-columns:1fr;gap:25px;margin-top:30px}.methods h3{margin-top:15px}.methods p{margin-bottom:0}.publication{grid-template-columns:44px 1fr;gap:14px}.publication h3{font-size:17px}.pub-year{font-size:23px}.footer-top{grid-template-columns:1fr;gap:25px;padding-top:45px;padding-bottom:35px}.footer-bottom{flex-direction:column;gap:10px}.page-intro{padding-top:55px;padding-bottom:45px}.page-intro h1{font-size:48px}.lead{font-size:16px}.feature-band p{font-size:36px}.profile-art{max-width:320px;width:100%}.profile{padding-top:10px}.filter-bar{grid-template-columns:1fr 1fr;padding:18px;gap:15px}.search-label{grid-column:1/-1}.desktop{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Longer lab identity and locally hosted Oklahoma prairie photograph. */
+.brand strong{display:inline-block;max-width:255px}.footer-brand{max-width:400px}.hero-bottom{gap:24px;align-items:center}.photo-credit{font-size:8px;letter-spacing:.5px;text-align:right;max-width:320px}.photo-credit:hover{text-decoration:underline}.hero{background-position:center 55%}
+@media(max-width:760px){.brand{font-size:11px;gap:8px}.brand strong{max-width:195px}.brand img{width:30px;height:30px}.header-inner{gap:10px}.hero-bottom{flex-direction:column;align-items:flex-start;gap:8px}.photo-credit{text-align:left;font-size:8px}.footer-brand{font-size:32px}}
+
+
+.year-navigation{display:flex;flex-wrap:wrap;gap:10px 24px;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px}.year-navigation a:hover{color:var(--orange);text-decoration:underline}.archive-note{margin:20px 0 45px}.publication-year{margin-bottom:50px;scroll-margin-top:30px}.publication-year h2{display:flex;align-items:baseline;gap:20px;border-bottom:1px solid var(--line);padding-bottom:18px;font-size:44px;margin-bottom:0}.publication-year h2 span{font-family:Arial,sans-serif;font-size:11px;letter-spacing:0;color:var(--muted)}.archive-publication{display:grid;grid-template-columns:36px 1fr;gap:15px;padding:22px 0;border-bottom:1px solid var(--line)}.citation-number{font-size:12px;color:var(--muted);padding-top:4px}.archive-publication .citation{font-size:15px;line-height:1.85;margin:0;overflow-wrap:anywhere}.citation strong{font-weight:700}.in-press{display:inline-block;margin-bottom:8px;color:var(--orange)}
+@media(max-width:760px){.year-navigation{gap:10px 20px}.archive-publication{grid-template-columns:27px 1fr;gap:8px;padding:20px 0}.archive-publication .citation{font-size:13px}.publication-year h2{font-size:38px}}
+
+
+.publication-legend{font-size:12px;color:var(--muted);margin:22px 0 42px}.trainee-marker{color:var(--orange);font-weight:700;font-size:1.15em}.publication-legend .trainee-marker{margin-right:5px}
+
+
+/* Wide Oklahoma prairie panorama: keep foreground grasses visible. */
+.hero{background-position:center 63%}.photo-credit a:hover{text-decoration:underline}
+@media(max-width:760px){.hero{background-position:58% center}.hero-bottom>.photo-credit{display:block!important}}
+
+
+.home-introduction>div{max-width:780px}.home-introduction p:not(.large-copy){color:var(--muted)}
+
+
+.lab-goal{padding-top:58px;padding-bottom:58px}.lab-goal p{max-width:1000px;margin:0;font-size:clamp(19px,2.1vw,27px);line-height:1.65;letter-spacing:-.3px}
+@media(max-width:760px){.lab-goal{padding-top:40px;padding-bottom:40px}}
+
+
+.hero-content>p:not(.eyebrow){max-width:710px}
+
+
+
+
+
+.news-section .section-heading{margin-bottom:36px}.news-item{display:grid;grid-template-columns:190px 1fr;gap:45px;border-top:1px solid var(--line);padding:34px 0}.news-meta{display:flex;flex-direction:column;gap:6px;font-size:13px}.news-meta span{color:var(--muted);font-size:10px;letter-spacing:1px;text-transform:uppercase}.news-item h3{font-size:25px;margin-bottom:14px}.news-item h3 a:hover{color:var(--orange)}.news-item p{max-width:780px;color:var(--muted);font-size:14px;margin-bottom:16px}.news-item .text-link{font-size:11px}
+@media(max-width:760px){.news-item{grid-template-columns:1fr;gap:16px;padding:28px 0}.news-meta{flex-direction:row;align-items:center;flex-wrap:wrap;gap:16px}.news-item h3{font-size:22px}}
+
+
+/* Smaller homepage headline, retaining its three-line composition. */
+.hero h1{font-size:clamp(40px,4.4vw,64px)}
+@media(max-width:760px){.hero h1{font-size:clamp(34px,7vw,48px)}}
+
+
+/* Oklahoma bison and prairie wildflowers. */
+.hero{background-position:center 60%}
+@media(max-width:760px){.hero{background-position:62% center}}
+
+
+/* Bison herd grazing across golden Oklahoma prairie. */
+.hero{background-position:center 62%}
+@media(max-width:760px){.hero{background-position:65% center}}
+
+
+/* Longhorn in an open Oklahoma grassland. */
+.hero{background-position:center 60%}
+@media(max-width:760px){.hero{background-position:26% center}}
+
+
+/* Place the longhorn to the right of the headline. */
+.hero{background-image:none}.hero::before{content:"";position:absolute;inset:0;background:var(--hero-image) center 60%/cover no-repeat;transform:scaleX(-1)}
+@media(max-width:760px){.hero::before{background-position:26% center}}
+
+
+/* Grazing cattle on the right; shaded trees provide space for the text. */
+.hero::before{transform:none;background-position:center 65%}
+@media(max-width:760px){.hero::before{background-position:72% center}}
+
+
+.news-archive{padding-bottom:90px}.news-empty{color:var(--muted);font-size:14px;padding:20px 0}
+
+
+/* Three research focuses and a dedicated woody vegetation page. */
+.research-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.research-card{padding:30px}.research-card h4{font-size:clamp(27px,2.6vw,38px)}.research-card.woody-plant-encroachment{background:#dce1cc;color:#3c5030}.woody-band{background-color:#3d5138;background-image:radial-gradient(ellipse at 85% 110%,#8b9f5b88,transparent 65%),repeating-radial-gradient(ellipse at 80% 130%,transparent 0,transparent 26px,#d5e0bd25 27px,transparent 28px)}
+.header-inner .brand{flex-shrink:0}#navigation{gap:22px}#navigation a{white-space:nowrap}
+@media(min-width:761px) and (max-width:1200px){.header-inner{flex-wrap:wrap;justify-content:center;gap:8px}#navigation{width:100%;justify-content:center;gap:24px;font-size:11px}.research-grid{grid-template-columns:1fr 1fr}.research-card.woody-plant-encroachment{grid-column:1/-1}.research-card.woody-plant-encroachment h4 br{display:none}}
+@media(max-width:760px){.research-grid{grid-template-columns:1fr}.research-card h4{font-size:36px}#navigation{gap:0}}
+
+
+/* Homepage background slideshow. */
+.hero-slideshow{isolation:isolate;overflow:hidden}.hero-slideshow::before{content:none}.hero-slide{position:absolute;inset:0;background-size:cover;background-position:var(--slide-position,center);opacity:0;transition:opacity 1.2s ease;pointer-events:none}.hero-slide.is-active{opacity:1}.hero-slideshow .hero-shade{pointer-events:none}.slideshow-footer{display:flex;flex-direction:column;align-items:flex-end;gap:12px}.slideshow-footer .photo-credit{max-width:470px}.slideshow-controls{display:flex;align-items:center;gap:10px}.slideshow-controls button{border:1px solid #ffffff55;background:#18382c55;color:#f8f7f2;min-width:32px;min-height:32px;padding:3px 8px;cursor:pointer;font-size:11px;line-height:1}.slideshow-controls button:hover{background:#ffffff25}.slide-dots{display:flex;gap:2px}.slide-dots button{border:0;background:transparent;min-width:25px;padding:8px}.slide-dots button span{display:block;width:6px;height:6px;border-radius:50%;background:#ffffff66}.slide-dots button[aria-pressed="true"] span{background:#e3cc9e;box-shadow:0 0 0 3px #e3cc9e22}
+@media(max-width:760px){.hero-slide{background-position:var(--slide-mobile-position,center)}.slideshow-footer{align-items:flex-start;width:100%;gap:10px}.hero-slideshow .hero-bottom{align-items:flex-start}.slideshow-footer .photo-credit{display:block}}
+@media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
+
+
+/* Wildfire research: featured platform and publication-led themes. */
+.fire-platform{display:grid;grid-template-columns:1.15fr 1fr;background:#233d34;color:#fff8eb;padding:48px;gap:60px;margin-bottom:54px;border-radius:4px}.fire-platform h2{font-size:clamp(30px,3vw,43px);line-height:1.18;margin:20px 0}.fire-platform-copy>p:not(.eyebrow){color:#e0e5dc;font-size:15px;line-height:1.8}.platform-status{display:inline-block;border:1px solid #d9c28f77;padding:5px 10px;font-size:11px;color:#ead6ad;border-radius:20px}.fire-platform .button{margin-top:14px}.fire-platform-copy .platform-note{font-size:11px!important;margin:18px 0 0;max-width:470px}.platform-capabilities{padding:24px 28px;background:#ffffff08;border:1px solid #ffffff22;align-self:center}.platform-variable{display:flex;gap:18px;padding:17px 0;border-bottom:1px solid #ffffff20}.platform-variable>span{font-size:11px;color:#e9b681;padding-top:5px}.platform-variable h3{font-size:21px;margin:0 0 5px}.platform-variable p{font-size:12px;margin:0;color:#d1dcd2}.platform-history{font-size:11px;color:#e9d2ab;margin:20px 0 0}.fire-theme-nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:48px}.fire-theme-nav a{border:1px solid var(--line);padding:12px 15px;font-size:12px;display:flex;gap:10px;align-items:center}.fire-theme-nav a:hover{border-color:var(--orange);color:var(--orange)}.fire-theme-nav span{color:var(--muted);font-size:10px}.fire-theme{scroll-margin-top:125px;border-top:1px solid var(--line)}.fire-theme:nth-of-type(even){background:#eeeee6}.fire-theme-heading{display:flex;gap:25px;align-items:flex-start;margin-bottom:32px}.fire-theme-number{font-size:13px;color:var(--orange);padding-top:10px}.fire-theme-heading h2{font-size:clamp(28px,3vw,40px);margin:0 0 14px}.fire-question{font-size:17px;color:var(--muted);margin:0;max-width:760px}.fire-theme-body{display:grid;grid-template-columns:1fr 1.15fr;gap:65px;padding-left:43px}.fire-theme-body>div>p{font-size:15px;line-height:1.9;color:var(--muted)}.fire-theme-body .chips{margin:25px 0}.fire-theme-papers h3{font-size:17px;margin:0 0 15px}.fire-theme-papers .archive-publication{padding:17px 0;grid-template-columns:30px 1fr}.fire-theme-papers .citation{font-size:12px;line-height:1.8}.fire-publication-note{font-size:12px;color:var(--muted);margin:30px 0 18px}
+@media(max-width:900px){.fire-platform{gap:30px;padding:30px}.fire-theme-body{gap:30px}}
+@media(max-width:760px){.fire-platform{grid-template-columns:1fr;padding:26px;gap:28px}.platform-capabilities{padding:20px}.fire-theme-body{grid-template-columns:1fr;padding-left:0}.fire-theme-heading{gap:15px}.fire-theme-nav{gap:8px}.fire-theme-nav a{width:100%}.fire-theme-heading h2{font-size:29px}.fire-theme{scroll-margin-top:90px}}
+
+/* Three-part natural resources emblem. */
+.brand img{width:49px;height:49px}
+@media(max-width:760px){.brand img{width:38px;height:38px}}
+
+/* Circular wordmark seal; the browser icon retains the simpler emblem. */
+.brand img{width:78px;height:78px}
+@media(max-width:760px){.brand img{width:62px;height:62px}}
+
+/* Allow individual slide compositions to show more space around wildlife. */
+.hero-slide{background-size:var(--slide-size,cover);background-repeat:no-repeat}
+@media(max-width:760px){.hero-slide{background-size:var(--slide-mobile-size,cover)}}
+
+/* Dark orange background for the featured wildfire research tool. */
+.fire-platform{background:#873D16}
+
+.fire-topics-heading h2{font-size:30px;margin-bottom:22px}
+
+.fire-theme-heading .chips{margin:18px 0 0}
+
+/* Individual research stories and explanatory figures. */
+.fire-study{display:grid;grid-template-columns:1fr 1.1fr;gap:45px;padding:38px 0;border-top:1px solid var(--line);align-items:start}.fire-study-copy .eyebrow{margin-bottom:14px;color:var(--muted)}.fire-study h3{font-family:var(--serif);font-size:27px;line-height:1.25;margin-bottom:18px}.study-summary{font-size:14px;line-height:1.9;color:var(--muted)}.fire-study-figure{margin:0;align-self:center}.fire-study-figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:9px}.fire-study-figure figcaption{font-size:11px;line-height:1.6;color:var(--muted);margin-top:10px}.study-citation{font-size:12px;margin:16px 0}.study-citation summary{cursor:pointer;color:var(--ink);padding:6px 0}.study-citation .citation{font-size:12px}.study-citation .archive-publication{padding:14px 0;border:0}.fire-study .text-link{font-size:12px}
+@media(max-width:900px){.fire-study{grid-template-columns:1fr;gap:20px}.fire-study-figure{max-width:760px}.fire-study h3{font-size:25px}}
+
+/* Nest publication sections beneath their research topic headings. */
+.fire-studies{margin-left:43px}
+@media(max-width:760px){.fire-studies{margin-left:20px}}
+
+.fire-study .study-citation .archive-publication{display:block}
+
+/* Let the soil-moisture chart fill its figure column. */
+#paper-hourly-moisture .fire-study-figure{width:100%;max-width:none;justify-self:stretch}
+
+/* Trim the first paper figure at the top and bottom without changing its source. */
+.progression-figure-crop{aspect-ratio:479 / 356;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:9px}
+.fire-study-figure .progression-figure-crop img{width:100%;max-width:none;height:auto;margin-top:-6.263%;border:0;border-radius:0}
+
+/* Topic publication dropdowns: hover, keyboard, or tap. */
+.fire-theme-nav{position:relative;align-items:flex-start;z-index:2}.fire-topic-menu{position:relative;flex:1 1 190px;min-width:0}.fire-topic-menu summary{display:flex;gap:10px;align-items:center;list-style:none;border:1px solid var(--line);padding:13px 14px;font-size:12px;line-height:1.6;cursor:pointer;min-height:72px}.fire-topic-menu summary::-webkit-details-marker{display:none}.fire-topic-menu summary>span:first-child{color:var(--muted);font-size:10px}.fire-topic-menu .topic-chevron{margin-left:auto;font-size:16px}.fire-topic-menu[open] summary,.fire-topic-menu summary:hover{border-color:var(--orange);color:var(--orange);background:#f1ede3}.fire-topic-menu summary:focus-visible{outline:3px solid #d47a40;outline-offset:3px}.topic-publications{position:absolute;top:100%;left:0;width:350px;max-width:calc(100vw - 44px);background:var(--paper);border:1px solid var(--line);box-shadow:0 12px 25px #203e3520;padding:10px 16px;z-index:5}.fire-topic-menu:last-child .topic-publications{left:auto;right:0}.topic-publications ul{list-style:none;margin:0;padding:0}.fire-theme-nav .topic-publications a{display:block;width:auto;border:0;border-radius:0;padding:12px 0;font-size:12px;line-height:1.6}.topic-publications li{border-top:1px solid var(--line)}.topic-publications a span{display:block;font-size:10px;color:var(--muted);margin-top:3px}.fire-theme-nav .topic-publications .topic-overview{font-size:11px;color:var(--orange)}.fire-study{scroll-margin-top:30px}
+@media(max-width:760px){.fire-topic-menu{flex-basis:100%}.fire-topic-menu summary{min-height:0}.topic-publications{position:static;width:100%;max-width:none;box-shadow:none;border-top:0}.fire-topic-menu:last-child .topic-publications{right:auto}}
+
+/* Oklahoma wildfire imagery introduces the research page. */
+.wildfire-page-hero{background:#342820;position:relative;isolation:isolate;color:#fff8ed;margin-bottom:56px;overflow:hidden}
+.wildfire-page-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/oklahoma-wildfire-flames.jpg') right 56%/cover no-repeat}
+.wildfire-page-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#201e19f2 0%,#29231dd9 42%,#35271e66 78%,#35271e33)}
+.wildfire-page-hero .page-intro{padding-top:80px;padding-bottom:55px}.wildfire-page-hero h1{font-size:clamp(44px,5vw,70px);max-width:1040px}.wildfire-page-hero h1 em{color:#efc28b}.wildfire-page-hero .lead{color:#f0e9dd;max-width:740px}.wildfire-page-hero .eyebrow{color:#e7cfab}.wildfire-hero-credit{padding-bottom:22px;font-size:10px;line-height:1.6;color:#e0d4c5}.wildfire-hero-credit a:hover{text-decoration:underline}
+@media(max-width:760px){.wildfire-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.wildfire-page-hero h1{font-size:42px}.wildfire-page-hero::after{background:linear-gradient(90deg,#201e19e8,#29231da8)}.wildfire-page-hero{margin-bottom:32px}.wildfire-hero-credit{font-size:9px}}
+
+/* Water research follows the wildfire page's publication-centered layout. */
+.water-page-hero{position:relative;isolation:isolate;overflow:hidden;color:#fff8ed;margin-bottom:56px;background:#173e46}
+.water-page-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/oklahoma-lake.jpg') center 62%/cover no-repeat}
+.water-page-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#12343bf2,#173e46c9 45%,#173e4638)}
+.water-page-hero .page-intro{padding-top:80px;padding-bottom:55px}.water-page-hero h1{font-size:clamp(44px,5vw,70px);max-width:1050px}.water-page-hero h1 em{color:#b8dcd6}.water-page-hero .lead{color:#e6f0ec;max-width:740px}.water-page-hero .eyebrow{color:#bed7cc}.water-theme .fire-theme-number{color:#347c88}.water-research-page .fire-topic-menu[open] summary,.water-research-page .fire-topic-menu summary:hover{color:#245d67;border-color:#347c88;background:#e8efeb}.water-research-page .topic-publications .topic-overview{color:#245d67}
+@media(max-width:760px){.water-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.water-page-hero h1{font-size:42px}.water-page-hero{margin-bottom:32px}.water-page-hero::after{background:linear-gradient(90deg,#12343be8,#173e46a0)}}
+
+/* Woody plant research: grassland banner and sage-green topic accents. */
+.woody-page-hero{position:relative;isolation:isolate;overflow:hidden;color:#fff8ed;margin-bottom:56px;background:#2d432c}
+.woody-page-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/oklahoma-redcedar-clear.png') center 82%/cover no-repeat}
+.woody-page-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#1c3022f2,#293d2ac9 48%,#293d2a38)}
+.woody-page-hero .page-intro{padding-top:80px;padding-bottom:55px}.woody-page-hero h1{font-size:clamp(44px,5vw,70px);max-width:1100px}.woody-page-hero h1 em{color:#cedcaa}.woody-page-hero .lead{color:#e6eddd;max-width:740px}.woody-page-hero .eyebrow{color:#d0dcb7}.woody-theme .fire-theme-number{color:#596f3e}.woody-research-page .fire-topic-menu[open] summary,.woody-research-page .fire-topic-menu summary:hover{color:#3d5733;border-color:#6c8054;background:#edf0e4}.woody-research-page .topic-publications .topic-overview{color:#3d5733}
+@media(max-width:760px){.woody-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.woody-page-hero h1{font-size:42px}.woody-page-hero{margin-bottom:32px}.woody-page-hero::after{background:linear-gradient(90deg,#1c3022e8,#293d2ab0)}}
+
+/* Current and former lab member cards. */
+.lab-members h2{margin-bottom:35px}.member-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}.member-card{padding:26px 23px;background:#fffdf7;border:1px solid var(--line)}.member-initials{width:58px;height:58px;display:flex;align-items:center;justify-content:center;background:#e7ecdf;border-radius:50%;font-family:var(--serif);font-size:23px;color:var(--ink);margin-bottom:23px}.member-card h3{font-family:var(--serif);font-size:24px;line-height:1.3;margin-bottom:10px}.member-role{color:#4b6652;font-size:12px;font-weight:600;margin-bottom:10px}.member-note{font-size:12px;color:var(--muted);line-height:1.8;margin-bottom:0}
+@media(max-width:1050px){.member-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.member-grid{grid-template-columns:1fr}}
+
+/* Prairie colors and imagery for the People page. */
+.people-page-hero{position:relative;isolation:isolate;overflow:hidden;color:#fff9eb;background:#294633;margin-bottom:30px}
+.people-page-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url('assets/oklahoma-prairie-wide.jpg') center 62%/cover no-repeat}
+.people-page-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#1c352aeb,#304730b8 55%,#30473040)}
+.people-page-hero .page-intro{padding-top:75px;padding-bottom:48px}.people-page-hero h1{font-size:clamp(42px,5vw,70px);max-width:1020px}.people-page-hero .lead:empty{display:none}.people-page-hero .eyebrow{color:#ead4a3}.people-hero-credit{font-size:10px;color:#e3e8d5;padding-bottom:20px;line-height:1.6}.people-hero-credit a:hover{text-decoration:underline}
+.lab-members:not(.lab-volunteers) .member-card{border-top:3px solid #78906c}.lab-volunteers{background:#eee8d8;padding:40px;border-radius:5px;margin-bottom:60px}.lab-volunteers .member-card{border-top:3px solid #b99b60;background:#faf8ef}.lab-volunteers .member-initials{background:#e9dbb8;color:#625235}.research-section .lab-members .member-card{border-top-color:#739398}.research-section .lab-members .member-initials{background:#e2ece8}
+@media(max-width:760px){.people-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.people-page-hero h1{font-size:42px}.lab-volunteers{padding:28px 22px;margin-bottom:40px}.people-hero-credit{font-size:9px}}

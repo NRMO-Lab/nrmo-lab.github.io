@@ -1,0 +1,49 @@
+{
+  "current": [
+    {
+      "name": "Quan Zhang",
+      "role": "PhD student"
+    },
+    {
+      "name": "Xiaohao Jiao",
+      "role": ""
+    },
+    {
+      "name": "Alonzo Hernandez",
+      "role": ""
+    },
+    {
+      "name": "Hannah Dong",
+      "role": ""
+    }
+  ],
+  "former": [
+    {
+      "name": "Alex Desjardins",
+      "role": "MS graduate",
+      "note": "Completed his degree in summer 2026."
+    },
+    {
+      "name": "Shanmin Fang",
+      "role": "PhD graduate",
+      "note": "Completed his degree in summer 2026."
+    },
+    {
+      "name": "Qiong Wu",
+      "role": "Former lab member",
+      "note": ""
+    },
+    {
+      "name": "Haoxuan Yang",
+      "role": "Former Postdoctoral Research Fellow",
+      "note": "Completed his two-year fellowship in 2026 and accepted a faculty position."
+    }
+  ],
+  "volunteers": [
+    {
+      "name": "Kaitlyn Yang",
+      "role": "High School Student",
+      "note": "Stillwater High School"
+    }
+  ]
+}

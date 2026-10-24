@@ -1,0 +1,80 @@
+[
+  {
+    "id": "redcedar-range",
+    "match": "Eastward shift in Juniperus virginiana",
+    "title": "Projecting the future range of eastern redcedar",
+    "summary": "We examined how future climate conditions may alter the distribution of eastern redcedar in the Southern Great Plains. The study projects an eastward shift in its distribution range, providing a basis for anticipating where climate suitability may change and prioritizing monitoring and management of woody encroachment.",
+    "steps": [
+      "Eastern redcedar records",
+      "Climate suitability models",
+      "Future distribution"
+    ],
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0168192323005269",
+    "topic": "distributions"
+  },
+  {
+    "id": "woody-ranges",
+    "match": "Future climate change shifts the ranges",
+    "title": "Anticipating range shifts of encroaching woody species",
+    "summary": "We investigated how future climate change may shift the ranges of major encroaching woody plant species in the Southern Great Plains. Comparing responses among species helps identify changing areas of potential encroachment and supports planning for early intervention and grassland conservation.",
+    "steps": [
+      "Woody species records",
+      "Future climate scenarios",
+      "Species range shifts"
+    ],
+    "source": "https://doi.org/10.1029/2024EF004520",
+    "topic": "distributions"
+  },
+  {
+    "id": "streamflow",
+    "match": "Responses of streamflow to forest expansion",
+    "title": "Connecting woody expansion with streamflow",
+    "summary": "Using SWAT+ simulations in the Little River Watershed, we examined how forest expansion and future climate conditions influence streamflow. The study highlights declining water availability as forest cover increases and connects woody vegetation management with the sustainability of water resources in subhumid Oklahoma.",
+    "steps": [
+      "Forest expansion",
+      "SWAT+ simulations",
+      "Streamflow response"
+    ],
+    "source": "https://doi.org/10.1016/j.jenvman.2024.120780",
+    "topic": "hydrology"
+  },
+  {
+    "id": "woodland-maturation",
+    "match": "Maturation of encroaching juniper woodland",
+    "title": "Comparing juniper woodland with native tallgrass prairie",
+    "summary": "We examined how the maturation of encroaching juniper woodland changes ecosystem carbon and water exchange relative to native tallgrass prairie. The study links higher gross primary productivity and water use with changes in net ecosystem exchange, demonstrating why the consequences of encroachment must be considered across multiple ecosystem processes.",
+    "steps": [
+      "Prairie & woodland",
+      "Ecosystem carbon exchange",
+      "Productivity & water use"
+    ],
+    "source": "https://www.sciencedirect.com/science/article/pii/S016819232500629X",
+    "topic": "carbon"
+  },
+  {
+    "id": "productivity-water",
+    "match": "Trade-off of ecosystem productivity and water use",
+    "title": "Evaluating productivity and water-use trade-offs",
+    "summary": "We investigated trade-offs between ecosystem productivity and water use as tree cover increases under future climate conditions in southcentral United States. The study connects vegetation change with carbon uptake, water demand, and water-use efficiency, informing assessment of the benefits and costs of increasing woody cover.",
+    "steps": [
+      "Tree cover scenarios",
+      "Ecosystem modeling",
+      "Carbon–water trade-offs"
+    ],
+    "source": "https://doi.org/10.1016/j.scitotenv.2024.170255",
+    "topic": "carbon"
+  },
+  {
+    "id": "weather-extremes",
+    "match": "Sequence and Seasonal Timing of Weather Extremes",
+    "title": "Understanding ecosystem stability during weather extremes",
+    "summary": "Using eddy covariance observations from a central Oklahoma tallgrass prairie and an adjacent juniper-encroached woodland, we examined how the timing and sequence of wet spells and flash droughts affect carbon and water fluxes. Responses varied with vegetation type and event sequence, highlighting the importance of native grasslands for ecosystem stability under a more variable climate.",
+    "steps": [
+      "Wet spells & droughts",
+      "Eddy covariance observations",
+      "Ecosystem stability"
+    ],
+    "source": "https://doi.org/10.1007/s10021-026-01087-7",
+    "topic": "resilience"
+  }
+]

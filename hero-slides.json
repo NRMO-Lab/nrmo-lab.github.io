@@ -1,0 +1,73 @@
+[
+  {
+    "image": "assets/scissortail-flycatcher.png",
+    "label": "Scissortail flycatcher in flight",
+    "credit": "User-provided photograph",
+    "source": "assets/scissortail-flycatcher.png",
+    "position": "right center",
+    "mobilePosition": "center 28%",
+    "size": "auto 82%",
+    "mobileSize": "auto 58%",
+    "backgroundColor": "#6798c5"
+  },
+  {
+    "image": "assets/oklahoma-wildfire-flames.jpg",
+    "label": "Wildfire-response burnout near Talihina, Oklahoma",
+    "credit": "Oklahoma National Guard · Public domain",
+    "source": "https://www.dvidshub.net/image/9538605/oklahoma-national-guard-wildland-firefighting-crews-battle-oklahoma-blazes",
+    "position": "center 56%",
+    "mobilePosition": "65% center"
+  },
+  {
+    "image": "assets/oklahoma-river.jpg",
+    "label": "North Canadian River at Britton Road, Oklahoma City",
+    "credit": "USGS · Public domain",
+    "source": "https://www.usgs.gov/media/images/downstream-view-north-canadian-river-britton-rd-oklahoma-city",
+    "position": "center 76%",
+    "mobilePosition": "center 75%"
+  },
+  {
+    "image": "assets/oklahoma-redcedar-clear.png",
+    "label": "Eastern redcedar encroachment into grassland in Northwest Oklahoma",
+    "credit": "Graycen Wheeler / OPMX",
+    "source": "https://www.kgou.org/politics-and-government/2025-03-31/redcedar-removal-a-priority-for-oklahoma-legislative-leader",
+    "position": "center 88%",
+    "mobilePosition": "70% bottom"
+  },
+  {
+    "image": "assets/oklahoma-prairie-wide.jpg",
+    "label": "Prairie at Wichita Mountains Wildlife Refuge, Oklahoma",
+    "credit": "Justin Meissen",
+    "source": "https://commons.wikimedia.org/wiki/File:Oklahoma_Tallgrass_Prairie.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "position": "center 63%",
+    "mobilePosition": "58% center"
+  },
+  {
+    "image": "assets/tallgrass-prairie-preserve.jpg",
+    "label": "Tallgrass Prairie Preserve near Pawhuska, Osage County, Oklahoma",
+    "credit": "DBinfo / Wikimedia Commons · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Tallgrass_Prairie_Preserve.jpg",
+    "position": "center 60%",
+    "mobilePosition": "center center"
+  },
+  {
+    "image": "assets/oklahoma-bison-clear.jpg",
+    "label": "Bison in a wildflower meadow at Wichita Mountains Wildlife Refuge, Oklahoma",
+    "credit": "Quinton Smith / USFWS · Public domain",
+    "source": "https://www.fws.gov/media/bison-1",
+    "position": "center 68%",
+    "mobilePosition": "65% 65%"
+  },
+  {
+    "image": "assets/oklahoma-lake.jpg",
+    "label": "Burford Lake, Wichita Mountains Wildlife Refuge, Oklahoma",
+    "credit": "Larry Smith · Display crop",
+    "source": "https://commons.wikimedia.org/wiki/File:Burford_Lake.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "position": "center 60%",
+    "mobilePosition": "center center"
+  }
+]
