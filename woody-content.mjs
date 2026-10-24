@@ -6,8 +6,7 @@ export function woodyContent({intro,publicationArchive,archiveEntry}) {
   const topics=[
     {id:'distributions',title:'Species Distributions and Range Shifts',question:'Where will encroaching woody plants find suitable conditions as climate changes?',methods:['Species distribution modeling','Climate scenarios','Southern Great Plains']},
     {id:'hydrology',title:'Woody Expansion and Water Resources',question:'How does increasing woody cover affect streamflow and water availability?',methods:['SWAT+ modeling','Forest expansion','Watershed processes']},
-    {id:'carbon',title:'Ecosystem Carbon and Water Trade-offs',question:'How do changing vegetation and woodland maturation alter carbon and water exchange?',methods:['Ecosystem productivity','Carbon exchange','Water-use efficiency']},
-    {id:'resilience',title:'Weather Extremes and Ecosystem Stability',question:'How do grasslands and encroached woodlands respond to droughts and wet spells?',methods:['Eddy covariance','Weather extremes','Ecosystem stability']}
+    {id:'carbon',title:'Carbon–Water Trade-offs and Ecosystem Response',question:'How does woody encroachment alter carbon and water exchange and ecosystem responses to weather extremes?',methods:['Carbon and water exchange','Water-use efficiency','Weather extremes','Ecosystem stability']}
   ];
   const papers=features.map(feature=>{
     const citation=publicationArchive.find(p=>p.citation.toLowerCase().includes(feature.match.toLowerCase()));

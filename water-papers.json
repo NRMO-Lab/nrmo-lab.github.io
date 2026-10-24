@@ -1,6 +1,11 @@
 [
   {
     "id": "arkansas-flow",
+    "figure": "assets/water-research/arkansas-basin-land-cover.png",
+    "figureAlt": "Map of the Arkansas River Basin showing major rivers, land cover types, and its location within the United States.",
+    "figureCaption": "Arkansas River Basin boundary, major rivers, and land cover types. The inset shows the basin’s location within the United States.",
+    "figureWidth": 552,
+    "figureHeight": 330,
     "match": "River flow decline across",
     "title": "Projecting river flow across the Arkansas River Basin",
     "summary": "We projected twenty-first-century river flow across the Arkansas River Basin to investigate how warming and drying may affect water availability. The study identifies declining flow across the major rivers, with particularly strong reductions in the western and southwestern basin, connecting climate change with regional water-resource planning.",
@@ -14,6 +19,11 @@
   },
   {
     "id": "forest-streamflow",
+    "figure": "assets/water-research/little-river-watershed.png",
+    "figureAlt": "Map of Oklahoma’s Little River Watershed showing land cover, river channels, Lake Thunderbird, and its location within the Cross Timbers Ecoregion.",
+    "figureCaption": "Little River Watershed, Oklahoma: land cover, river channels, and Lake Thunderbird. Insets show the watershed’s location within the Cross Timbers Ecoregion and the subhumid United States.",
+    "figureWidth": 811,
+    "figureHeight": 434,
     "match": "Responses of streamflow to forest expansion",
     "title": "Linking forest expansion with streamflow in Oklahoma",
     "summary": "Using SWAT+ simulations in the Little River Watershed, we examined the combined effects of future climate and forest expansion on streamflow. The work connects woody vegetation management with water availability and inflows to Lake Thunderbird, highlighting the implications of changing land cover for water supply.",
@@ -27,6 +37,11 @@
   },
   {
     "id": "afforestation-hydrology",
+    "figure": "assets/water-research/afforestation-hydrology.png",
+    "figureAlt": "Three panels comparing annual water yield, evapotranspiration, and groundwater recharge across afforestation levels from zero to 100 percent under SSP2-4.5 and SSP5-8.5.",
+    "figureCaption": "Annual water yield, evapotranspiration (ET), and groundwater recharge across afforestation scenarios under SSP2-4.5 and SSP5-8.5. Dashed lines indicate the 2000–2019 reference values.",
+    "figureWidth": 2128,
+    "figureHeight": 716,
     "match": "Responses of Hydrological Processes",
     "title": "Evaluating hydrological trade-offs of afforestation",
     "summary": "Using SWAT+ simulations in the Lower Mississippi Alluvial Valley, we examined evapotranspiration, groundwater recharge, and water yield under future climate and afforestation scenarios. Afforestation can increase shallow groundwater recharge while reducing water yield, highlighting trade-offs for forest restoration and water management.",
@@ -40,6 +55,11 @@
   },
   {
     "id": "forest-storage",
+    "figure": "assets/water-research/forest-water-storage.png",
+    "figureAlt": "Conceptual watershed diagram showing precipitation, evapotranspiration, surface flow, soil water, groundwater recharge, and exchanges with streams and lakes.",
+    "figureCaption": "Conceptual illustration of water storage and flow through a watershed, including soil water, groundwater, evapotranspiration, and exchanges with streams and lakes.",
+    "figureWidth": 738,
+    "figureHeight": 551,
     "match": "Do forests store more water",
     "title": "Understanding how land cover influences water storage",
     "summary": "We compared water storage capacity among forests and other land cover types, distinguishing observed storage from intrinsic capacity after accounting for environmental influences. The study shows why climate, terrain, soils, and evapotranspiration must be considered when evaluating the water-related benefits of forests.",
@@ -53,6 +73,11 @@
   },
   {
     "id": "conus-irrigation",
+    "figure": "assets/water-research/crop-irrigation-ssp585.webp",
+    "figureAlt": "Maps showing spatial patterns of annual crop irrigation water requirement under SSP5-8.5 during the middle and late twenty-first century.",
+    "figureCaption": "Spatial patterns of crop irrigation water requirement (IWR, mm yr⁻¹) under SSP5-8.5 during the middle (2040–2059, left) and late (2080–2099, right) twenty-first century.",
+    "figureWidth": 2200,
+    "figureHeight": 721,
     "match": "Increasing irrigation water requirements",
     "title": "Anticipating irrigation needs across U.S. croplands",
     "summary": "We projected irrigation water requirements for major field crops across the contiguous United States under future climate scenarios. The study identifies increasing requirements during the twenty-first century, with the Southern Great Plains and Midwest emerging as important regions for future irrigation planning.",
@@ -66,6 +91,11 @@
   },
   {
     "id": "valley-irrigation",
+    "figure": "assets/water-research/valley-crop-irrigation.png",
+    "figureAlt": "Nine panels comparing projected changes in irrigation water requirements for individual crops and all crops under RCP4.5 and RCP8.5, with varied and fixed growing-season lengths, during 2040–2059 and 2080–2099.",
+    "figureCaption": "Projected changes in crop irrigation water requirements (mm yr⁻¹) in the Lower Mississippi Alluvial Valley under RCP4.5 and RCP8.5 during 2040–2059 and 2080–2099, comparing varied and fixed growing-season lengths.",
+    "figureWidth": 3333,
+    "figureHeight": 2307,
     "match": "Projection of 21st century irrigation water requirement",
     "title": "Assessing future irrigation demand in the Mississippi Alluvial Valley",
     "summary": "We investigated future irrigation water requirements across the Lower Mississippi Alluvial Valley. By examining agricultural water demand under changing climate conditions, this work connects crop production with long-term planning for water resources in a major agricultural region.",
@@ -74,11 +104,16 @@
       "Agricultural water demand",
       "Regional irrigation needs"
     ],
-    "source": "https://research.fs.usda.gov/treesearch/58456",
+    "source": "https://www.sciencedirect.com/science/article/pii/S0378377418318249",
     "topic": "irrigation"
   },
   {
     "id": "soil-moisture",
+    "figure": "assets/water-research/soil-moisture-fusion.png",
+    "figureAlt": "Workflow combining SMAP L4 and Crop-CASMA surface soil moisture using HCTSA time-series mining and VIPSTF spatiotemporal fusion to produce a three-hourly, one-kilometer dataset.",
+    "figureCaption": "Workflow for producing the three-hourly, 1-km surface soil moisture dataset by combining SMAP L4 and Crop-CASMA observations through time-series mining and spatiotemporal fusion.",
+    "figureWidth": 1892,
+    "figureHeight": 1270,
     "match": "A 3 h, 1 km surface soil moisture dataset",
     "title": "Mapping soil moisture at finer spatial and temporal scales",
     "summary": "We developed a surface soil moisture dataset for the contiguous United States covering 2015–2023 at 1 km spatial resolution and three-hour intervals. The study combines spatial detail and frequent observations to support analysis of rapidly changing land-surface water conditions.",
@@ -91,20 +126,12 @@
     "topic": "observations"
   },
   {
-    "id": "evaporation",
-    "match": "Improvement in the blending",
-    "title": "Improving daily evaporation estimation",
-    "summary": "We improved a method that blends the evaporation–precipitation ratio with a complementary principle function to estimate evaporation. The work addresses calibration of the equilibrium evaporation coefficient and evaluates estimation performance, including under extreme climate conditions.",
-    "steps": [
-      "Water & energy relations",
-      "Improved blended function",
-      "Daily evaporation"
-    ],
-    "source": "https://doi.org/10.1016/j.jhydrol.2024.131170",
-    "topic": "observations"
-  },
-  {
     "id": "nitrogen",
+    "figure": "assets/water-research/mississippi-nitrogen-leaching.png",
+    "figureAlt": "Four maps comparing dissolved inorganic nitrogen and total organic nitrogen leaching across the Mississippi River Basin in the 1900s and 2000–2014.",
+    "figureCaption": "Spatial patterns of dissolved inorganic nitrogen (DIN) and total organic nitrogen (TON) leaching across the Mississippi River Basin in the 1900s and 2000–2014 (g N m⁻² yr⁻¹).",
+    "figureWidth": 2128,
+    "figureHeight": 1680,
     "match": "Long‐Term Trajectory of Nitrogen Loading",
     "title": "Tracing nitrogen from the Mississippi Basin to the coast",
     "summary": "This collaborative study uses the Dynamic Land Ecosystem Model to examine long-term nitrogen loading and delivery from the Mississippi River Basin to the Gulf of Mexico. It evaluates natural and human influences, including fertilizer, atmospheric deposition, land use, and climate, linking watershed processes with downstream water quality.",
@@ -118,6 +145,11 @@
   },
   {
     "id": "carbon-export",
+    "figure": "assets/water-research/carbon-export-trends.png",
+    "figureAlt": "Time series of dissolved organic carbon export and concentration from 1901 to 2009, with upward linear trend lines.",
+    "figureCaption": "Long-term changes in dissolved organic carbon (DOC) export and concentration during 1901–2009. Linear trend lines indicate increases in both measures.",
+    "figureWidth": 2128,
+    "figureHeight": 1017,
     "match": "Century-long increasing trend",
     "title": "Connecting environmental change with riverine carbon export",
     "summary": "This collaborative work examines the century-long trend and variability of dissolved organic carbon export from the Mississippi River Basin. It investigates natural and human influences on carbon transport, connecting terrestrial ecosystem processes with river networks and downstream carbon delivery.",

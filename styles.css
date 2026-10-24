@@ -161,3 +161,116 @@
 .people-page-hero .page-intro{padding-top:75px;padding-bottom:48px}.people-page-hero h1{font-size:clamp(42px,5vw,70px);max-width:1020px}.people-page-hero .lead:empty{display:none}.people-page-hero .eyebrow{color:#ead4a3}.people-hero-credit{font-size:10px;color:#e3e8d5;padding-bottom:20px;line-height:1.6}.people-hero-credit a:hover{text-decoration:underline}
 .lab-members:not(.lab-volunteers) .member-card{border-top:3px solid #78906c}.lab-volunteers{background:#eee8d8;padding:40px;border-radius:5px;margin-bottom:60px}.lab-volunteers .member-card{border-top:3px solid #b99b60;background:#faf8ef}.lab-volunteers .member-initials{background:#e9dbb8;color:#625235}.research-section .lab-members .member-card{border-top-color:#739398}.research-section .lab-members .member-initials{background:#e2ece8}
 @media(max-width:760px){.people-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.people-page-hero h1{font-size:42px}.lab-volunteers{padding:28px 22px;margin-bottom:40px}.people-hero-credit{font-size:9px}}
+
+/* Photographic homepage research cards. */
+.research-grid{align-items:stretch;gap:24px}.research-card.photo-research-card{padding:0;background:#fffdf7;color:var(--ink);border:1px solid #d3dacb;border-radius:7px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 5px 18px #203e3508;transition:transform .25s,box-shadow .25s,border-color .25s}
+.photo-research-card:hover{transform:translateY(-7px);box-shadow:0 17px 30px #203e351b;border-color:#9dab94}.research-card-photo{height:210px;position:relative;overflow:hidden;background:#294633}.research-card-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#15251d50,transparent 45%,#15251d8c)}.research-card-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s}.photo-research-card:hover .research-card-photo img{transform:scale(1.045)}.wildfire .research-card-photo img{object-position:center 56%}.water .research-card-photo img{object-position:center 65%}.woody-plant-encroachment .research-card-photo img{object-position:center 83%}.research-card-number{position:absolute;left:23px;top:19px;z-index:1;color:#fff9ea;letter-spacing:1.6px;font-size:9px;font-weight:700}.research-card-credit{position:absolute;bottom:10px;right:12px;left:12px;text-align:right;z-index:1;font-size:8px;color:#f1f0e8;line-height:1.4}.research-card-body{display:flex;flex-direction:column;flex:1;padding:27px 25px 22px;border-top:4px solid var(--card-accent)}.photo-research-card.wildfire{--card-accent:#ac572f}.photo-research-card.water{--card-accent:#347c88}.photo-research-card.woody-plant-encroachment{--card-accent:#6a8048}.photo-research-card h3{font-family:var(--serif);font-size:28px;line-height:1.2;letter-spacing:-.5px;margin:0 0 18px;color:var(--ink)}.photo-research-card h4{font-family:'Nunito Sans',Arial,sans-serif;font-size:15px;font-weight:400;line-height:1.65;letter-spacing:0;color:var(--muted);margin:0 0 22px}.research-card-pills{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:26px}.research-card-pills span{padding:4px 9px;border:1px solid #d9ded5;border-radius:20px;font-size:10px;line-height:1.6;color:#4f6255}.research-card-cta{margin-top:auto;display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:16px;font-size:11px;font-weight:700;color:var(--card-accent)}.research-card-arrow{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;border:1px solid #d9ded5;font-size:18px;transition:background .2s,color .2s}.photo-research-card:hover .research-card-arrow{background:var(--card-accent);color:white;border-color:var(--card-accent)}
+@media(min-width:761px) and (max-width:1200px){.research-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.research-card.photo-research-card.woody-plant-encroachment{grid-column:auto}.research-card-body{padding:22px 18px}.photo-research-card h3{font-size:24px}.research-card-photo{height:180px}}
+@media(max-width:760px){.research-grid{grid-template-columns:1fr}.research-card-photo{height:230px}.photo-research-card h3{font-size:29px}.research-card-body{padding:25px}.photo-research-card h4{font-size:16px}}
+
+/* Blend the smaller flycatcher photo into its sky backdrop without rectangular edges. */
+.hero-slide--flycatcher{background-image:none!important}
+.hero-slide--flycatcher::before{content:"";position:absolute;right:0;top:9%;height:82%;aspect-ratio:4/3;background:url('assets/scissortail-flycatcher.png') center/100% 100% no-repeat;mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent),linear-gradient(180deg,transparent,#000 12%,#000 88%,transparent);mask-composite:intersect;-webkit-mask-image:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent),linear-gradient(180deg,transparent,#000 12%,#000 88%,transparent);-webkit-mask-composite:source-in}
+@media(max-width:760px){.hero-slide--flycatcher::before{height:58%;top:12%;right:50%;transform:translateX(50%)}}
+
+/* Uniform news background, without shaded heading or link boxes. */
+.news-section{background:#fff}.news-section .section-heading,.news-section .section-heading>div,.news-section .eyebrow,.news-section h2,.news-section .text-link{background:transparent;box-shadow:none}
+
+
+/* Clean white surroundings for the homepage research cards. */
+#research{background:#fff}#research .photo-research-card{background:#fff;box-shadow:none}#research .photo-research-card:hover{box-shadow:0 5px 14px #203e350a}
+
+
+/* Separate research and lab updates with a quiet, full-width rule. */
+#research + .news-section{position:relative;border-top:1px solid #d9ded5;padding-top:80px}#research + .news-section::before{content:'';position:absolute;top:-2px;left:50%;transform:translateX(-50%);width:64px;height:3px;background:#be5739}@media(max-width:760px){#research + .news-section{padding-top:60px}}
+
+
+/* Compact watershed illustration in the fourth water publication. */
+#water-paper-forest-storage .fire-study-figure{width:100%;max-width:420px;justify-self:center}
+
+
+/* Display only the final row of irrigation scenario maps. */
+#water-paper-conus-irrigation .water-figure-image{aspect-ratio:3489 / 1148;overflow:hidden}#water-paper-conus-irrigation .water-figure-image img{margin-top:-71.4818%;border:0;border-radius:0}
+
+
+/* Compact evaporation figure in the eighth water publication. */
+#water-paper-evaporation .fire-study-figure{width:100%;max-width:360px;justify-self:center}
+
+
+/* Consistent light gray background across homepage content sections. */
+#research,#research + .news-section{background:#f2f3f2}
+
+
+.profile-links{display:flex;flex-wrap:wrap;align-items:center;gap:12px 28px}
+
+
+/* Bring the principal investigator and current team closer together. */
+.profile:has(+ .lab-members){padding-bottom:36px}.profile + .lab-members{padding-top:36px}@media(max-width:760px){.profile:has(+ .lab-members){padding-bottom:24px}.profile + .lab-members{padding-top:24px}}
+
+
+.member-study{font-size:12px;line-height:1.7;color:var(--muted);margin:14px 0}.member-study strong{color:var(--ink);font-weight:600}
+
+
+/* Oklahoma prairie banner for the news archive. */
+.news-page-hero{position:relative;isolation:isolate;overflow:hidden;background:#294633;color:#fff9eb;margin-bottom:45px}.news-page-hero::before{content:'';position:absolute;inset:0;z-index:-2;background:url('assets/news-celebration.jpg') center 45%/cover no-repeat}.news-page-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#1c352aeb,#304730b8 55%,#30473040)}.news-page-hero .page-intro{padding-top:80px;padding-bottom:50px}.news-page-hero .lead{color:#e6eddd}.news-page-hero .eyebrow{color:#d0dcb7}.news-hero-credit{padding-bottom:18px;text-align:right;font-size:9px;color:#e6eddd}.news-hero-credit a:hover{text-decoration:underline}@media(max-width:760px){.news-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.news-page-hero{margin-bottom:30px}}
+
+
+/* A cheerful, warm palette for the news banner. */
+.news-page-hero{background:#f6d9a4;color:#493821}.news-page-hero::after{background:linear-gradient(90deg,#fff8edf5 0%,#fff2dfc9 42%,#fff0d926 100%)}.news-page-hero .lead{color:#655039}.news-page-hero .eyebrow{color:#a2532b}.news-hero-credit{color:#62482e}
+
+
+/* Library photograph for the publications archive header. */
+.publications-page-hero{position:relative;isolation:isolate;overflow:hidden;background:#ebe2d3;color:#283e34;margin-bottom:40px}.publications-page-hero::before{content:'';position:absolute;inset:0;z-index:-2;background:url('assets/publications-library.jpg') center 45%/cover no-repeat}.publications-page-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#faf4e9f5 0%,#f5ead9e8 45%,#f5ead940 100%)}.publications-page-hero .page-intro{padding-top:80px;padding-bottom:50px}.publications-page-hero .lead{color:#48594d}.publications-hero-credit{padding-bottom:18px;text-align:right;font-size:9px;color:#283e34}.publications-hero-credit a{background:#faf4e9dc;padding:3px 7px}.publications-hero-credit a:hover{text-decoration:underline}@media(max-width:760px){.publications-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.publications-page-hero{margin-bottom:30px}}
+
+
+/* Warm peach and amber palette for the People page banner. */
+.people-page-hero{background:#efd4b0;color:#493821}.people-page-hero::after{background:linear-gradient(90deg,#fff1ddf5 0%,#f6d6afd9 55%,#e8b97666 100%)}.people-page-hero .eyebrow{color:#92502d}.people-page-hero .lead{color:#655039}.people-hero-credit{color:#493821}.people-hero-credit a{background:#fff1ddd9;padding:3px 7px}
+
+
+/* Soft blue banner with a photograph representing teamwork. */
+.people-page-hero{background:#dbeaf5;color:#233e58}.people-page-hero::before{background:url('assets/people-teamwork.jpg') center 47%/cover no-repeat}.people-page-hero::after{background:linear-gradient(90deg,#edf6fffa 0%,#dcecf8e6 42%,#b6d5eb55 100%)}.people-page-hero .eyebrow{color:#3f6688}.people-page-hero .lead{color:#466178}.people-hero-credit{color:#233e58}.people-hero-credit a{background:#edf6ffdc}
+
+
+/* Keep the People header photograph separate from its text. */
+.people-page-hero::before,.people-page-hero::after{display:none}.people-page-hero{background:#e5eff8}.people-hero-layout{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding-top:38px;padding-bottom:24px}.people-hero-layout .page-intro{width:100%;padding:25px 0}.people-hero-layout h1{font-size:clamp(36px,4vw,58px);margin-bottom:0}.people-hero-photo{display:block;width:100%;height:auto;border-radius:8px}.people-hero-credit a{background:transparent}@media(max-width:760px){.people-hero-layout{grid-template-columns:1fr;gap:20px;padding-top:28px}.people-hero-layout .page-intro{padding:10px 0}.people-hero-layout h1{font-size:40px}}
+
+
+/* OSU campus photograph as the People header background. */
+.people-page-hero::before{display:block;background:url('assets/osu-edmon-low-library.webp') center 48%/cover no-repeat}.people-page-hero::after{display:block;background:linear-gradient(90deg,#edf6fff2 0%,#dcecf8cc 40%,#b6d5eb18 75%)}.people-hero-layout{display:block;min-height:340px;padding-top:52px;padding-bottom:48px}.people-hero-layout .page-intro{max-width:620px;margin:0;padding:20px 0}.people-hero-credit a{background:#edf6ffe0}@media(max-width:760px){.people-hero-layout{min-height:300px;padding-top:35px;padding-bottom:35px}.people-hero-layout .page-intro{max-width:440px}.people-page-hero::before{background-position:40% center}}
+
+
+.people-headline-line{white-space:nowrap}.people-hero-layout .page-intro{max-width:760px}@media(max-width:760px){.people-hero-layout h1{font-size:clamp(23px,5.5vw,40px)}}
+
+
+/* Compact tower-location figure in the fourth woody encroachment publication. */
+#woody-paper-woodland-maturation .fire-study-figure{width:100%;max-width:360px;justify-self:center}
+
+
+/* Compact tree-cover illustration in the fifth woody encroachment publication. */
+#woody-paper-productivity-water .fire-study-figure{width:100%;max-width:360px;justify-self:center}
+
+
+/* Celebrate lab achievements with a trophy photograph on the right. */
+.news-page-hero{background:#f6d8df}.news-page-hero::before{background:url('assets/news-achievements.jpg') right 58%/auto 220% no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3eefa 0%,#fce7e9eb 45%,#f6d8df00 75%)}.news-page-hero h1,.news-page-hero .lead{max-width:680px}.news-hero-credit a{background:#fff3eedc;padding:3px 7px}@media(max-width:760px){.news-page-hero::after{background:linear-gradient(90deg,#fff3eef5,#fce7e9ba 65%,#f6d8df50)}}
+
+
+/* Megaphone photograph for lab announcements. */
+.news-page-hero{background:#f8e6cf}.news-page-hero::before{background:url('assets/news-megaphone.jpg') right 54%/auto 230% no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3eafa 0%,#f8e6cff0 45%,#f8e6cf00 75%)}@media(max-width:760px){.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf5,#f8e6cfce 65%,#f8e6cf60)}}
+
+
+/* Full-width megaphone background for the News header. */
+.news-page-hero::before{background:url('assets/news-megaphone.jpg') center 54%/cover no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf2 0%,#f8e6cfd9 45%,#f8e6cf30 100%)}@media(max-width:760px){.news-page-hero::before{background-position:60% 54%}.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf0,#f8e6cfb3 70%,#f8e6cf60)}}
+
+
+/* Megaphone-only illustration, without people. */
+.news-page-hero::before{background:url('assets/news-megaphone-illustration.svg') center/cover no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3ddaa,transparent 65%)}@media(max-width:760px){.news-page-hero::before{background-position:65% center}.news-page-hero::after{background:linear-gradient(90deg,#fff3ddf0,#fff3ddb0 65%,#fff3dd40)}}
+
+
+#water-paper-conus-irrigation .water-figure-image{aspect-ratio:auto;overflow:visible}#water-paper-conus-irrigation .water-figure-image img{margin-top:0}
+.figure-enlarge{display:inline-block;background:transparent;border:0;border-bottom:1px solid #aab4a5;padding:5px 0;color:var(--ink);font:inherit;font-size:12px;cursor:pointer;margin-top:10px}.figure-dialog{width:min(1400px,96vw);max-height:94vh;border:0;padding:20px;background:var(--paper);color:var(--ink)}.figure-dialog::backdrop{background:#132a25cc}.figure-dialog img{display:block;width:auto;max-width:100%;max-height:72vh;object-fit:contain;margin:15px auto}.figure-dialog p{font-size:13px;margin:12px 0 0}.figure-dialog-close{display:block;margin-left:auto;border:1px solid var(--line);background:#fff;padding:8px 15px;color:var(--ink);cursor:pointer}
+
+/* Accessible return controls for long pages. */
+.footer-navigation{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.return-to-top{position:fixed;right:24px;bottom:24px;z-index:20;min-height:44px;padding:10px 17px;border:1px solid #d4dfd8;border-radius:24px;background:#203e35;color:#fff;font:inherit;font-size:12px;font-weight:600;cursor:pointer;box-shadow:0 3px 12px #132a2526}
+.return-to-top:hover{background:#31594b}.return-to-top:focus-visible{outline:3px solid #d47a40;outline-offset:4px}
+@media(max-width:760px){.return-to-top{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:10px 14px}}

@@ -2,19 +2,23 @@
   "current": [
     {
       "name": "Quan Zhang",
-      "role": "PhD student"
+      "role": "PhD student",
+      "studyArea": "Grassland wildfire, fire risk modeling, remote sensing, and fuel mapping."
     },
     {
       "name": "Xiaohao Jiao",
-      "role": ""
+      "role": "MS student",
+      "studyArea": "Remote sensing, machine learning, fire prediction, and fire risk evaluation"
     },
     {
       "name": "Alonzo Hernandez",
-      "role": ""
+      "role": "MS student",
+      "studyArea": "Crop Modeling, DSSAT, Irrigation, and water resources"
     },
     {
       "name": "Hannah Dong",
-      "role": ""
+      "role": "Undergraduate student",
+      "studyArea": "Water quality and pollution"
     }
   ],
   "former": [
@@ -30,8 +34,8 @@
     },
     {
       "name": "Qiong Wu",
-      "role": "Former lab member",
-      "note": ""
+      "role": "Former visiting scholar",
+      "note": "Completed her visiting appointment in 2024 and accepted a faculty position."
     },
     {
       "name": "Haoxuan Yang",
@@ -43,7 +47,9 @@
     {
       "name": "Kaitlyn Yang",
       "role": "High School Student",
-      "note": "Stillwater High School"
+      "note": "",
+      "studyArea": "Climate projection, extreme weather, and heatwave",
+      "studyLabel": "Research interests"
     }
   ]
 }

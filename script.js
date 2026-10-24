@@ -39,3 +39,40 @@ topicMenus.forEach(topic=>{
 });
 document.addEventListener('keydown',event=>{if(event.key==='Escape')topicMenus.forEach(topic=>{if(topic.open){if(topic.contains(document.activeElement))topic.querySelector('summary').focus();topic.open=false;}});});
 document.addEventListener('click',event=>{if(!event.target.closest('.fire-topic-menu'))topicMenus.forEach(topic=>{topic.open=false;});});
+// Enlarge research figures in a keyboard-accessible native dialog.
+const researchFigures=[...document.querySelectorAll('.fire-study-figure')];
+if(researchFigures.length){
+  const dialog=document.createElement('dialog');
+  dialog.className='figure-dialog';
+  dialog.setAttribute('aria-label','Research figure');
+  const close=document.createElement('button');
+  close.type='button'; close.className='figure-dialog-close'; close.textContent='Close ✕';
+  const fullImage=document.createElement('img');
+  const caption=document.createElement('p');
+  dialog.append(close,fullImage,caption);document.body.append(dialog);
+  close.addEventListener('click',()=>dialog.close());
+  dialog.addEventListener('click',event=>{if(event.target===dialog){const box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();}});
+  researchFigures.forEach(figure=>{
+    const image=figure.querySelector('img');if(!image)return;
+    const button=document.createElement('button');button.type='button';button.className='figure-enlarge';button.textContent='Enlarge figure ↗';
+    button.setAttribute('aria-label','Enlarge figure: '+(image.alt||'Research figure'));
+    button.addEventListener('click',()=>{fullImage.src=image.currentSrc||image.src;fullImage.alt=image.alt;caption.textContent=figure.querySelector('figcaption')?.textContent||'';dialog.showModal();});
+    image.style.cursor='zoom-in'; image.addEventListener('click',()=>button.click());
+    figure.append(button);
+  });
+}
+
+// Keep a return-to-top control within reach on long pages.
+const returnToTop=document.createElement('button');
+returnToTop.type='button';returnToTop.className='return-to-top';
+returnToTop.textContent='↑ Back to top';returnToTop.hidden=true;
+returnToTop.setAttribute('aria-label','Back to top of page');
+document.body.append(returnToTop);
+function updateReturnToTop(){returnToTop.hidden=window.scrollY<500;}
+window.addEventListener('scroll',updateReturnToTop,{passive:true});
+updateReturnToTop();
+returnToTop.addEventListener('click',()=>{
+  const header=document.querySelector('header');
+  header.setAttribute('tabindex','-1');header.focus({preventScroll:true});
+  window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+});

@@ -1,6 +1,11 @@
 [
   {
     "id": "redcedar-range",
+    "figure": "assets/woody-research/redcedar-habitat-suitability.png",
+    "figureAlt": "Maps and time series showing eastern redcedar habitat suitability in the Southern Great Plains under RCP4.5 and RCP8.5, comparing 2000–2019 with future periods through 2080–2099.",
+    "figureCaption": "Projected changes in eastern redcedar habitat suitability across the Southern Great Plains under RCP4.5 and RCP8.5. Maps compare 2000–2019 with 2080–2099, and time series show the percentage of wildland area in each suitability class.",
+    "figureWidth": 1529,
+    "figureHeight": 886,
     "match": "Eastward shift in Juniperus virginiana",
     "title": "Projecting the future range of eastern redcedar",
     "summary": "We examined how future climate conditions may alter the distribution of eastern redcedar in the Southern Great Plains. The study projects an eastward shift in its distribution range, providing a basis for anticipating where climate suitability may change and prioritizing monitoring and management of woody encroachment.",
@@ -14,6 +19,11 @@
   },
   {
     "id": "woody-ranges",
+    "figure": "assets/woody-research/woody-species-habitat-change.png",
+    "figureAlt": "Eight maps showing habitat loss, unchanged habitat, and habitat gain for Ashe juniper, honey mesquite, post oak, and eastern redcedar in the Southern Great Plains under RCP4.5 and RCP8.5.",
+    "figureCaption": "Projected habitat loss, persistence, and gain for Ashe juniper, honey mesquite, post oak, and eastern redcedar across the Southern Great Plains under RCP4.5 (top) and RCP8.5 (bottom).",
+    "figureWidth": 2128,
+    "figureHeight": 1288,
     "match": "Future climate change shifts the ranges",
     "title": "Anticipating range shifts of encroaching woody species",
     "summary": "We investigated how future climate change may shift the ranges of major encroaching woody plant species in the Southern Great Plains. Comparing responses among species helps identify changing areas of potential encroachment and supports planning for early intervention and grassland conservation.",
@@ -27,6 +37,11 @@
   },
   {
     "id": "streamflow",
+    "figure": "assets/woody-research/forest-expansion-low-inflow.png",
+    "figureAlt": "Line chart comparing the number of years with low inflow across forest expansion scenarios FE0 through FE10 under RCP4.5 and RCP8.5, with shaded ranges.",
+    "figureCaption": "Number of years with low inflow under RCP4.5 and RCP8.5 across forest expansion scenarios, with forest cover increasing from FE0 to FE10.",
+    "figureWidth": 2370,
+    "figureHeight": 1171,
     "match": "Responses of streamflow to forest expansion",
     "title": "Connecting woody expansion with streamflow",
     "summary": "Using SWAT+ simulations in the Little River Watershed, we examined how forest expansion and future climate conditions influence streamflow. The study highlights declining water availability as forest cover increases and connects woody vegetation management with the sustainability of water resources in subhumid Oklahoma.",
@@ -40,6 +55,11 @@
   },
   {
     "id": "woodland-maturation",
+    "figure": "assets/woody-research/grassland-woodland-towers.png",
+    "figureAlt": "Aerial image showing grassland and woodland tower locations, surrounding footprint contours, and an inset locating the study site in Oklahoma.",
+    "figureCaption": "Grassland and woodland tower locations and measurement footprint contours at the Oklahoma study site. The inset shows the site's regional location.",
+    "figureWidth": 600,
+    "figureHeight": 702,
     "match": "Maturation of encroaching juniper woodland",
     "title": "Comparing juniper woodland with native tallgrass prairie",
     "summary": "We examined how the maturation of encroaching juniper woodland changes ecosystem carbon and water exchange relative to native tallgrass prairie. The study links higher gross primary productivity and water use with changes in net ecosystem exchange, demonstrating why the consequences of encroachment must be considered across multiple ecosystem processes.",
@@ -53,6 +73,11 @@
   },
   {
     "id": "productivity-water",
+    "figure": "assets/woody-research/tree-cover-carbon-water-tradeoffs.png",
+    "figureAlt": "Diagram comparing low and high tree canopy coverage, illustrating increased evapotranspiration and net primary productivity and reduced runoff as tree cover increases.",
+    "figureCaption": "Carbon–water trade-offs associated with increasing tree canopy cover under land use and climate change: higher evapotranspiration and net primary productivity, accompanied by lower runoff.",
+    "figureWidth": 1137,
+    "figureHeight": 886,
     "match": "Trade-off of ecosystem productivity and water use",
     "title": "Evaluating productivity and water-use trade-offs",
     "summary": "We investigated trade-offs between ecosystem productivity and water use as tree cover increases under future climate conditions in southcentral United States. The study connects vegetation change with carbon uptake, water demand, and water-use efficiency, informing assessment of the benefits and costs of increasing woody cover.",
@@ -66,6 +91,11 @@
   },
   {
     "id": "weather-extremes",
+    "figure": "assets/woody-research/weather-extremes-carbon-water-fluxes.png",
+    "figureAlt": "Time series comparing grassland and woodland net ecosystem exchange, gross ecosystem productivity, ecosystem respiration, and evapotranspiration alongside precipitation during 2022, 2023, and 2024.",
+    "figureCaption": "Grassland and woodland carbon and water fluxes during 2022–2024: net ecosystem exchange (NEE), gross ecosystem productivity (GEP), ecosystem respiration (Re), and evapotranspiration (ET), shown alongside precipitation.",
+    "figureWidth": 1984,
+    "figureHeight": 1432,
     "match": "Sequence and Seasonal Timing of Weather Extremes",
     "title": "Understanding ecosystem stability during weather extremes",
     "summary": "Using eddy covariance observations from a central Oklahoma tallgrass prairie and an adjacent juniper-encroached woodland, we examined how the timing and sequence of wet spells and flash droughts affect carbon and water fluxes. Responses varied with vegetation type and event sequence, highlighting the importance of native grasslands for ecosystem stability under a more variable climate.",
@@ -75,6 +105,6 @@
       "Ecosystem stability"
     ],
     "source": "https://doi.org/10.1007/s10021-026-01087-7",
-    "topic": "resilience"
+    "topic": "carbon"
   }
 ]
