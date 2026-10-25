@@ -212,7 +212,7 @@
 
 
 /* Oklahoma prairie banner for the news archive. */
-.news-page-hero{position:relative;isolation:isolate;overflow:hidden;background:#294633;color:#fff9eb;margin-bottom:45px}.news-page-hero::before{content:'';position:absolute;inset:0;z-index:-2;background:url('assets/news-celebration.jpg') center 45%/cover no-repeat}.news-page-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#1c352aeb,#304730b8 55%,#30473040)}.news-page-hero .page-intro{padding-top:80px;padding-bottom:50px}.news-page-hero .lead{color:#e6eddd}.news-page-hero .eyebrow{color:#d0dcb7}.news-hero-credit{padding-bottom:18px;text-align:right;font-size:9px;color:#e6eddd}.news-hero-credit a:hover{text-decoration:underline}@media(max-width:760px){.news-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.news-page-hero{margin-bottom:30px}}
+.news-page-hero{position:relative;isolation:isolate;overflow:hidden;background:#294633;color:#fff9eb;margin-bottom:45px}.news-page-hero::before{content:'';position:absolute;inset:0;z-index:-2;}.news-page-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#1c352aeb,#304730b8 55%,#30473040)}.news-page-hero .page-intro{padding-top:80px;padding-bottom:50px}.news-page-hero .lead{color:#e6eddd}.news-page-hero .eyebrow{color:#d0dcb7}.news-hero-credit{padding-bottom:18px;text-align:right;font-size:9px;color:#e6eddd}.news-hero-credit a:hover{text-decoration:underline}@media(max-width:760px){.news-page-hero .page-intro{padding-top:55px;padding-bottom:32px}.news-page-hero{margin-bottom:30px}}
 
 
 /* A cheerful, warm palette for the news banner. */
@@ -228,7 +228,7 @@
 
 
 /* Soft blue banner with a photograph representing teamwork. */
-.people-page-hero{background:#dbeaf5;color:#233e58}.people-page-hero::before{background:url('assets/people-teamwork.jpg') center 47%/cover no-repeat}.people-page-hero::after{background:linear-gradient(90deg,#edf6fffa 0%,#dcecf8e6 42%,#b6d5eb55 100%)}.people-page-hero .eyebrow{color:#3f6688}.people-page-hero .lead{color:#466178}.people-hero-credit{color:#233e58}.people-hero-credit a{background:#edf6ffdc}
+.people-page-hero{background:#dbeaf5;color:#233e58}.people-page-hero::before{}.people-page-hero::after{background:linear-gradient(90deg,#edf6fffa 0%,#dcecf8e6 42%,#b6d5eb55 100%)}.people-page-hero .eyebrow{color:#3f6688}.people-page-hero .lead{color:#466178}.people-hero-credit{color:#233e58}.people-hero-credit a{background:#edf6ffdc}
 
 
 /* Keep the People header photograph separate from its text. */
@@ -251,15 +251,15 @@
 
 
 /* Celebrate lab achievements with a trophy photograph on the right. */
-.news-page-hero{background:#f6d8df}.news-page-hero::before{background:url('assets/news-achievements.jpg') right 58%/auto 220% no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3eefa 0%,#fce7e9eb 45%,#f6d8df00 75%)}.news-page-hero h1,.news-page-hero .lead{max-width:680px}.news-hero-credit a{background:#fff3eedc;padding:3px 7px}@media(max-width:760px){.news-page-hero::after{background:linear-gradient(90deg,#fff3eef5,#fce7e9ba 65%,#f6d8df50)}}
+.news-page-hero{background:#f6d8df}.news-page-hero::before{}.news-page-hero::after{background:linear-gradient(90deg,#fff3eefa 0%,#fce7e9eb 45%,#f6d8df00 75%)}.news-page-hero h1,.news-page-hero .lead{max-width:680px}.news-hero-credit a{background:#fff3eedc;padding:3px 7px}@media(max-width:760px){.news-page-hero::after{background:linear-gradient(90deg,#fff3eef5,#fce7e9ba 65%,#f6d8df50)}}
 
 
 /* Megaphone photograph for lab announcements. */
-.news-page-hero{background:#f8e6cf}.news-page-hero::before{background:url('assets/news-megaphone.jpg') right 54%/auto 230% no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3eafa 0%,#f8e6cff0 45%,#f8e6cf00 75%)}@media(max-width:760px){.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf5,#f8e6cfce 65%,#f8e6cf60)}}
+.news-page-hero{background:#f8e6cf}.news-page-hero::before{}.news-page-hero::after{background:linear-gradient(90deg,#fff3eafa 0%,#f8e6cff0 45%,#f8e6cf00 75%)}@media(max-width:760px){.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf5,#f8e6cfce 65%,#f8e6cf60)}}
 
 
 /* Full-width megaphone background for the News header. */
-.news-page-hero::before{background:url('assets/news-megaphone.jpg') center 54%/cover no-repeat}.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf2 0%,#f8e6cfd9 45%,#f8e6cf30 100%)}@media(max-width:760px){.news-page-hero::before{background-position:60% 54%}.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf0,#f8e6cfb3 70%,#f8e6cf60)}}
+.news-page-hero::before{}.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf2 0%,#f8e6cfd9 45%,#f8e6cf30 100%)}@media(max-width:760px){.news-page-hero::before{background-position:60% 54%}.news-page-hero::after{background:linear-gradient(90deg,#fff3eaf0,#f8e6cfb3 70%,#f8e6cf60)}}
 
 
 /* Megaphone-only illustration, without people. */
@@ -289,7 +289,7 @@
 @media(min-width:761px) and (max-width:1400px){.header-inner{flex-wrap:wrap;justify-content:center;gap:8px}#navigation{width:100%;justify-content:center;gap:20px;font-size:11px}}
 
 /* Management decisions: fire and agricultural water imagery. */
-.decision-support-hero{position:relative;isolation:isolate;overflow:hidden;background:#203e35;color:#fff8ed;margin-bottom:56px}.decision-support-scenes{position:absolute;inset:0;z-index:-2;display:grid}.decision-support-scenes span{background:url('assets/decision-support-prescribed-fire.webp') center 65%/cover no-repeat}.decision-support-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#142e29ed,#193b34ba 48%,#193b3455)}.decision-support-hero .page-intro{padding-top:88px;padding-bottom:70px}.decision-support-hero h1{font-size:clamp(44px,5vw,70px);max-width:1000px;margin-bottom:0}.decision-support-hero h1 em{color:#e8d5ad}.decision-support-hero .eyebrow{color:#e8d5ad}.decision-support-credit{font-size:10px;padding-bottom:20px;color:#eee9dd}.decision-support-credit a:hover{text-decoration:underline}@media(max-width:760px){.decision-support-hero{margin-bottom:32px}.decision-support-hero .page-intro{padding-top:55px;padding-bottom:45px}.decision-support-hero h1{font-size:42px}.decision-support-credit{font-size:9px}.decision-support-hero::after{background:linear-gradient(90deg,#142e29ed,#193b34a8)}}
+.decision-support-hero{position:relative;isolation:isolate;overflow:hidden;background:#203e35;color:#fff8ed;margin-bottom:56px}.decision-support-scenes{position:absolute;inset:0;z-index:-2;display:grid}.decision-support-scenes span{background:url('assets/decision-support-water-maps.webp') center 60%/cover no-repeat}.decision-support-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#142e29ed,#193b34ba 48%,#193b3455)}.decision-support-hero .page-intro{padding-top:88px;padding-bottom:70px}.decision-support-hero h1{font-size:clamp(44px,5vw,70px);max-width:1000px;margin-bottom:0}.decision-support-hero h1 em{color:#e8d5ad}.decision-support-hero .eyebrow{color:#e8d5ad}.decision-support-credit{font-size:10px;padding-bottom:20px;color:#eee9dd}.decision-support-credit a:hover{text-decoration:underline}@media(max-width:760px){.decision-support-hero{margin-bottom:32px}.decision-support-hero .page-intro{padding-top:55px;padding-bottom:45px}.decision-support-hero h1{font-size:42px}.decision-support-credit{font-size:9px}.decision-support-hero::after{background:linear-gradient(90deg,#142e29ed,#193b34a8)}}
 
 /* Decision support tool directory and future platforms. */
 .decision-tool-nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-bottom:44px}.decision-tool-nav>a{display:flex;flex-direction:column;padding:25px;border:1px solid var(--line);background:#eeeee6;transition:transform .2s,border-color .2s}.decision-tool-nav>a:hover{transform:translateY(-3px);border-color:var(--orange)}.decision-tool-number{font-size:11px;letter-spacing:2px;color:var(--orange);margin-bottom:20px}.decision-tool-nav h2{font-size:24px;line-height:1.25;margin-bottom:24px}.decision-tool-status{font-size:11px;margin-top:auto;color:var(--muted)}.decision-upcoming{padding:42px 0;border-top:1px solid var(--line);scroll-margin-top:30px}.decision-upcoming:last-child{padding-bottom:70px}.decision-upcoming h2{font-size:clamp(28px,3vw,40px);margin:20px 0 16px}.decision-upcoming p{color:var(--muted);margin-bottom:0}.decision-coming-soon{display:inline-block;margin-left:18px;border:1px solid #c8cdbd;border-radius:20px;padding:3px 12px;font-size:11px;color:var(--muted)}#fire-potential{scroll-margin-top:30px}@media(max-width:1000px){.decision-tool-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:550px){.decision-tool-nav{grid-template-columns:1fr}.decision-tool-nav h2{font-size:25px}.decision-tool-number{margin-bottom:10px}}
@@ -299,3 +299,7 @@
 .decision-live-tool{padding-top:42px;border-top:1px solid var(--line)}.decision-live-tool h2{font-size:clamp(28px,3vw,40px);margin:20px 0 24px}
 
 .decision-tool-description{color:var(--muted);margin-bottom:26px}
+
+.decision-support-hero::after{background:linear-gradient(90deg,#142e29fa 10%,#193b34d9 37%,#193b3450 70%,#193b3425)}@media(max-width:760px){.decision-support-scenes span{background-size:cover;background-position:center}.decision-support-hero::after{background:linear-gradient(90deg,#142e29e6,#193b3490)}}
+
+.decision-support-scenes span{background-size:cover;background-position:center 60%}.decision-support-hero::after{background:linear-gradient(90deg,#142e29eb,#193b34b3 48%,#193b3440)}
