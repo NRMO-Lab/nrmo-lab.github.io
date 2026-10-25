@@ -69,5 +69,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "position": "center 60%",
     "mobilePosition": "center center"
+  },
+  {
+    "image": "assets/oklahoma-cotton-field.jpg",
+    "label": "Cotton field at the Southwest Research and Extension Center, Altus, Oklahoma",
+    "credit": "OSU Ag Research",
+    "source": "https://agresearch.okstate.edu/facilities/southwest-research-and-extension-center",
+    "position": "center 58%",
+    "mobilePosition": "center center"
   }
 ]
