@@ -278,3 +278,9 @@
 /* Lab director portrait. */
 .profile-portrait{align-self:start;margin:0}.profile-portrait img{display:block;width:100%;height:auto;border-radius:7px}.profile-portrait p{font-size:11px;color:var(--muted);margin:12px 0 0}@media(max-width:760px){.profile-portrait{width:min(100%,340px)}}
 
+
+/* Live research platform embedded on the wildfire page. */
+.platform-embed{grid-column:1/-1;min-width:0}.platform-embed-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:16px}.platform-embed-heading h3{margin:0;font-size:22px}.platform-embed-heading .text-link{color:#fff8eb;border-color:#ffffff66;flex-shrink:0}.platform-embed iframe{display:block;width:100%;height:800px;border:1px solid #ffffff44;border-radius:4px;background:#fff}.platform-embed-note{font-size:12px;margin:12px 0 0;color:#eee0d1}@media(max-width:760px){.platform-embed-heading{align-items:flex-start;flex-direction:column;gap:8px}.platform-embed iframe{height:680px}}
+
+
+.footer-top .footer-contact{margin-top:20px;line-height:1.7}.footer-contact a{color:#fff8eb;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
