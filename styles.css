@@ -274,3 +274,7 @@
 .return-to-top{position:fixed;right:24px;bottom:24px;z-index:20;min-height:44px;padding:10px 17px;border:1px solid #d4dfd8;border-radius:24px;background:#203e35;color:#fff;font:inherit;font-size:12px;font-weight:600;cursor:pointer;box-shadow:0 3px 12px #132a2526}
 .return-to-top:hover{background:#31594b}.return-to-top:focus-visible{outline:3px solid #d47a40;outline-offset:4px}
 @media(max-width:760px){.return-to-top{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:10px 14px}}
+
+/* Lab director portrait. */
+.profile-portrait{align-self:start;margin:0}.profile-portrait img{display:block;width:100%;height:auto;border-radius:7px}.profile-portrait p{font-size:11px;color:var(--muted);margin:12px 0 0}@media(max-width:760px){.profile-portrait{width:min(100%,340px)}}
+
