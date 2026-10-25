@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+
+# Full-resolution source retained locally; website uses optimized WebP.
+/assets/irrigation-usda-original.jpg

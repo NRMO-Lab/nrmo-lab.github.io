@@ -71,11 +71,11 @@
     "mobilePosition": "center center"
   },
   {
-    "image": "assets/oklahoma-growing-wheat.jpg",
-    "label": "Maturing wheat at the OSU Agronomy Research Station, Stillwater, Oklahoma",
-    "credit": "OSU Ag Research",
-    "source": "https://agresearch.okstate.edu/facilities/agronomy-research-station-stillwater",
-    "position": "center 65%",
+    "image": "assets/great-plains-irrigation.webp",
+    "label": "Center-pivot irrigation in northeastern Nebraska, Great Plains",
+    "credit": "Lance Cheung / USDA · Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Cattail_Crop_Field_(20210723-NRCS-LSC-0282).jpg",
+    "position": "center 60%",
     "mobilePosition": "center center"
   }
 ]

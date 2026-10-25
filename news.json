@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10",
+    "category": "Lab News",
+    "title": "NRMO Lab website launches",
+    "summary": "The Natural Resource Modeling and Observation Lab website is now live! We invite you to meet our team, explore our research on wildfire, water resources, and woody plant encroachment, and discover our latest publications and updates."
+  },
+  {
     "date": "2026-07",
     "category": "Wildfire Research",
     "title": "New paper introduces a simulation-based framework for wildfire danger forecasting",
@@ -58,5 +64,3 @@
     "summary": "Dr. Haoxuan Yang completed two years as a Postdoctoral Research Fellow in our lab and accepted a faculty position. We thank Haoxuan for his valuable contributions and wish him well as he begins this new chapter in his academic career."
   }
 ]
-
-
