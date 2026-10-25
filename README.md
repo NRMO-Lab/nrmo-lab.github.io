@@ -4,7 +4,7 @@ Static website for the NRMO Lab at Oklahoma State University, published at https
 
 ## Build and preview
 
-- `node build.mjs`: regenerate the seven HTML pages.
+- `node build.mjs`: regenerate the eight HTML pages.
 - `node check.mjs`: verify navigation and local page references.
 - `node server.mjs`: preview at http://127.0.0.1:4175.
 - `.\Update-Website.ps1`: build, check, commit, and push updates to GitHub Pages.
@@ -30,3 +30,7 @@ Website images are stored in `assets/`. Photo credits and source links are maint
 The `email-signature/` folder and its logo assets are retained for Outlook. `export-logo.cjs` and `restore-logo-text.ps1` support logo conversion; the text restoration step is needed after export to preserve circular lettering. Fonts load from Google Fonts with system fallbacks.
 
 Unused trial photographs, superseded diagrams, extraction files, and redundant large image originals were removed during cleanup.
+
+## Decision Support
+
+`decision-support-content.mjs` contains the live fire potential platform and its introduction. This page appears between Woody Plant Encroachment and People in the shared navigation. Future management platforms can be added here.

@@ -284,3 +284,18 @@
 
 
 .footer-top .footer-contact{margin-top:20px;line-height:1.7}.footer-contact a{color:#fff8eb;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+
+/* Keep the expanded navigation readable on smaller desktop screens. */
+@media(min-width:761px) and (max-width:1400px){.header-inner{flex-wrap:wrap;justify-content:center;gap:8px}#navigation{width:100%;justify-content:center;gap:20px;font-size:11px}}
+
+/* Management decisions: fire and agricultural water imagery. */
+.decision-support-hero{position:relative;isolation:isolate;overflow:hidden;background:#203e35;color:#fff8ed;margin-bottom:56px}.decision-support-scenes{position:absolute;inset:0;z-index:-2;display:grid}.decision-support-scenes span{background:url('assets/decision-support-prescribed-fire.webp') center 65%/cover no-repeat}.decision-support-hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#142e29ed,#193b34ba 48%,#193b3455)}.decision-support-hero .page-intro{padding-top:88px;padding-bottom:70px}.decision-support-hero h1{font-size:clamp(44px,5vw,70px);max-width:1000px;margin-bottom:0}.decision-support-hero h1 em{color:#e8d5ad}.decision-support-hero .eyebrow{color:#e8d5ad}.decision-support-credit{font-size:10px;padding-bottom:20px;color:#eee9dd}.decision-support-credit a:hover{text-decoration:underline}@media(max-width:760px){.decision-support-hero{margin-bottom:32px}.decision-support-hero .page-intro{padding-top:55px;padding-bottom:45px}.decision-support-hero h1{font-size:42px}.decision-support-credit{font-size:9px}.decision-support-hero::after{background:linear-gradient(90deg,#142e29ed,#193b34a8)}}
+
+/* Decision support tool directory and future platforms. */
+.decision-tool-nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-bottom:44px}.decision-tool-nav>a{display:flex;flex-direction:column;padding:25px;border:1px solid var(--line);background:#eeeee6;transition:transform .2s,border-color .2s}.decision-tool-nav>a:hover{transform:translateY(-3px);border-color:var(--orange)}.decision-tool-number{font-size:11px;letter-spacing:2px;color:var(--orange);margin-bottom:20px}.decision-tool-nav h2{font-size:24px;line-height:1.25;margin-bottom:24px}.decision-tool-status{font-size:11px;margin-top:auto;color:var(--muted)}.decision-upcoming{padding:42px 0;border-top:1px solid var(--line);scroll-margin-top:30px}.decision-upcoming:last-child{padding-bottom:70px}.decision-upcoming h2{font-size:clamp(28px,3vw,40px);margin:20px 0 16px}.decision-upcoming p{color:var(--muted);margin-bottom:0}.decision-coming-soon{display:inline-block;margin-left:18px;border:1px solid #c8cdbd;border-radius:20px;padding:3px 12px;font-size:11px;color:var(--muted)}#fire-potential{scroll-margin-top:30px}@media(max-width:1000px){.decision-tool-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:550px){.decision-tool-nav{grid-template-columns:1fr}.decision-tool-nav h2{font-size:25px}.decision-tool-number{margin-bottom:10px}}
+
+.decision-live-tool{margin-bottom:54px}.decision-live-tool h2{font-size:clamp(30px,3vw,43px);margin-bottom:24px}.decision-live-tool iframe{display:block;width:100%;height:900px;border:1px solid var(--line);border-radius:4px;background:#fff}@media(max-width:760px){.decision-live-tool iframe{height:720px}}
+
+.decision-live-tool{padding-top:42px;border-top:1px solid var(--line)}.decision-live-tool h2{font-size:clamp(28px,3vw,40px);margin:20px 0 24px}
+
+.decision-tool-description{color:var(--muted);margin-bottom:26px}
