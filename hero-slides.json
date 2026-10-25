@@ -71,11 +71,14 @@
     "mobilePosition": "center center"
   },
   {
-    "image": "assets/great-plains-irrigation.webp",
-    "label": "Center-pivot irrigation in northeastern Nebraska, Great Plains",
-    "credit": "Lance Cheung / USDA · Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Cattail_Crop_Field_(20210723-NRCS-LSC-0282).jpg",
-    "position": "center 60%",
-    "mobilePosition": "center center"
+    "image": "assets/oklahoma-furrow-irrigation-high-resolution.jpg",
+    "label": "Furrow irrigation in a cotton field in southwest Oklahoma",
+    "credit": "Saleh Taghvaeian / Oklahoma State University Extension",
+    "source": "https://www.eurekalert.org/multimedia/921579",
+    "position": "center 42%",
+    "mobilePosition": "center center",
+    "size": "cover",
+    "mobileSize": "cover",
+    "backgroundColor": "#244438"
   }
 ]
