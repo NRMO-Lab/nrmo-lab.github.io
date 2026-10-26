@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nrmo-lab.github.io/sitemap.xml

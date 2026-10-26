@@ -34,3 +34,9 @@ Unused trial photographs, superseded diagrams, extraction files, and redundant l
 ## Decision Support
 
 `decision-support-content.mjs` contains the live fire potential platform and its introduction. This page appears between Woody Plant Encroachment and People in the shared navigation. Future management platforms can be added here.
+
+## Search discovery
+
+The build generates sitemap.xml for all eight public pages and robots.txt referencing it. Each page has a canonical URL, description, and index/follow metadata. No indexing or ranking is guaranteed.
+
+After publishing, add https://nrmo-lab.github.io/ as a URL-prefix property in Google Search Console. Download Google's ownership verification HTML file and place it in the repository root without changing its filename or contents; it is preserved by the build. Publish it, complete verification, then submit sitemap.xml and request homepage indexing through URL Inspection. A Google verification meta tag must be added to the build template if using that method instead.
