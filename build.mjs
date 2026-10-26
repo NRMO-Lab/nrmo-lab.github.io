@@ -5,12 +5,23 @@ import {wildfireContent} from './wildfire-content.mjs';
 import {readFileSync,writeFileSync} from 'node:fs';
 import {isRecentNews} from './news-window.js';
 const publicationArchive=JSON.parse(readFileSync(new URL('./publications.json',import.meta.url),'utf8'));
+const labMembers=JSON.parse(readFileSync(new URL('./people.json',import.meta.url),'utf8'));
+const labAuthorNames=['Jia Yang',...labMembers.current.map(m=>m.name),...labMembers.former.map(m=>m.name)];
+const labAuthorPattern=new RegExp('(?<![\\p{L}])(?:'+labAuthorNames.map(name=>{
+  const parts=name.trim().split(/\s+/);const surname=parts.at(-1);const initial=parts[0][0];
+  if(!/^[A-Za-z-]+$/.test(surname)||!/^[A-Za-z]$/.test(initial))throw Error('Unsupported author name: '+name);
+  return surname+',?\\s+'+initial+'\\.?|'+initial+'\\.\\s+'+surname;
+}).join('|')+')(?![\\p{L}])','gu');
+function highlightLabAuthors(citation){
+  const year=citation.search(/\b(?:19|20)\d{2}\b/);const end=year<0?citation.length:year;
+  return escapeHtml(citation.slice(0,end)).replace(labAuthorPattern,'<strong>$&</strong>')+escapeHtml(citation.slice(end));
+}
 const publicationYears=[...new Set(publicationArchive.map(p=>p.year))].sort((a,b)=>b-a);
 const escapeHtml=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 // Match only the first author: coauthorship alone does not establish leadership.
 const traineeLed=citation=>/^(?:Yang,\s*H\b|Desjardins\b|Fang,\s*S\b|Zhang,\s*Q\b|Wu,\s*Q\b)/i.test(citation.trim());
 function archiveEntry(p,index){
-  const citation=escapeHtml(p.citation).replace(/Yang,?\s+J\.(?=\s|,|$)|Yang, J(?=\s*\()/g,'<strong>$&</strong>');
+  const citation=highlightLabAuthors(p.citation);
   return `<article class="archive-publication"><span class="citation-number" aria-hidden="true">${index+1}.</span><div>${p.status==='in press'?'<span class="tag in-press">In press</span>':''}<p class="citation">${traineeLed(p.citation)?'<span class="trainee-marker" role="img" aria-label="Led by a lab postdoctoral researcher or advised graduate student" title="Led by a lab postdoctoral researcher or advised graduate student">†</span> ':''}${citation}</p></div></article>`;
 }
 const nav=[['index.html','Home'],['wildfire.html','Wildfire Research'],['water.html','Water Research'],['woody-plant-encroachment.html','Woody Plant Encroachment'],['decision-support.html','Decision Support'],['people.html','People'],['news.html','News'],['publications.html','Publications']];
@@ -58,7 +69,7 @@ const decisionSupport=decisionSupportContent({intro,label});
 const wildfire=wildfireContent({intro,label,project,publicationArchive,archiveEntry});
 const water=waterContent({intro,publicationArchive,archiveEntry});
 const woody=woodyContent({intro,publicationArchive,archiveEntry});
-const labMembers=JSON.parse(readFileSync(new URL('./people.json',import.meta.url),'utf8'));
+
 const memberCard=person=>`<article class="member-card"><div class="member-initials" aria-hidden="true">${escapeHtml(person.name.split(' ').map(part=>part[0]).join(''))}</div><h3>${escapeHtml(person.name)}</h3>${person.role?`<p class="member-role">${escapeHtml(person.role)}</p>`:''}${person.studyArea?`<p class="member-study"><strong>${escapeHtml(person.studyLabel||'Study area')}</strong><br>${escapeHtml(person.studyArea)}</p>`:''}${person.note?`<p class="member-note">${escapeHtml(person.note)}</p>`:''}</article>`;
 const memberSections=`<section class="wrap section lab-members" aria-labelledby="current-members-heading">${label('OUR TEAM')}<h2 id="current-members-heading">Current lab members</h2><div class="member-grid">${labMembers.current.map(memberCard).join('')}</div></section><section class="research-section"><div class="wrap section lab-members" aria-labelledby="former-members-heading">${label('OUR ALUMNI')}<h2 id="former-members-heading">Former lab members</h2><div class="member-grid">${labMembers.former.map(memberCard).join('')}</div></div></section>`;
 const people=`<div class="people-page-hero"><div class="wrap people-hero-layout">${intro('THE PEOPLE BEHIND THE MODELS','A curiosity for Nature.<br><span class="people-headline-line">A commitment to Science.</span>','')}</div><div class="wrap people-hero-credit"><a href="https://commons.wikimedia.org/wiki/File:Edmon_Low_Library.jpg" target="_blank" rel="noopener noreferrer">Edmon Low Library, OSU · Helluvamatt (cropped)</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a></div></div>`+`<section class="wrap section profile"><div class="profile-portrait"><img src="assets/jia-yang-portrait.webp" alt="Jia Yang wearing an orange Oklahoma State University polo shirt" width="800" height="800"><p>Jia Yang · Lab Director</p></div><div>${label('PRINCIPAL INVESTIGATOR')}<h2>Jia Yang</h2><p class="large-copy">Assistant Professor</p><p>Department of Natural Resource Ecology and Management<br>Oklahoma State University</p><p class="profile-links"><a class="text-link" href="mailto:jia.yang11@okstate.edu">jia.yang11@okstate.edu</a><a class="text-link" href="https://scholar.google.com/citations?user=bTuQtA8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a><a class="text-link" href="https://experts.okstate.edu/jia.yang11" target="_blank" rel="noopener noreferrer">OSU Experts <span aria-hidden="true">↗</span></a></p><p>Jia Yang studies wildfire dynamics and risk, water resources, and ecosystem responses to climate change and disturbance. His research integrates ecological modeling, Earth observation, geospatial analysis, and AI to understand interactions among fire, vegetation, water, and carbon and inform natural resource management.</p><p>He joined Oklahoma State University in January 2022. Previously, he served as an assistant professor at Mississippi State University and held research appointments at Auburn University.</p></div></section>${memberSections}`;
