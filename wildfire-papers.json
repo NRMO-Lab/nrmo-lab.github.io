@@ -168,56 +168,5 @@
     "figureCaption": "Global spatial patterns and latitudinal profiles of (a) pyrogenic carbon emissions and (b) combustion rate per unit burned area. Figure from Yang et al. (2015), supplied by the lab.",
     "figureWidth": 1169,
     "figureHeight": 957
-  },
-  {
-    "id": "western-emissions",
-    "match": "Projection of future wildfire emissions",
-    "title": "Projecting wildfire emissions in the western United States",
-    "summary": "This collaborative study projects future wildfire emissions in the western United States under climate change. It separates the contributions of changes in burned area, fuel loading, and fuel moisture to clarify how different processes shape future emissions.",
-    "steps": [
-      "Burned area",
-      "Fuel loading & moisture",
-      "Future fire emissions"
-    ],
-    "source": "https://doi.org/10.1071/WF20190",
-    "figure": "assets/research/western-fire-emissions-workflow.png",
-    "figureAlt": "Modeling workflow connecting global and regional climate inputs, WRF and DLEM modeling, fire number and area, vegetation conditions, fuel moisture, fuel loading, and fuel consumption to fire emission projections.",
-    "figureCaption": "Modeling framework for projecting wildfire emissions, integrating climate projections, vegetation and fuel conditions, fire activity, and fuel consumption. Figure supplied by the lab.",
-    "figureWidth": 675,
-    "figureHeight": 439
-  },
-  {
-    "id": "resfire-development",
-    "match": "Development of a REgion",
-    "title": "Developing the RESFire Earth system model",
-    "summary": "We contributed to the development of the Region-Specific Ecosystem Feedback Fire model within the Community Earth System Model. RESFire connects fire occurrence, spread, and impacts with natural and human influences, enabling interactive studies of fire, climate, and ecosystems.",
-    "steps": [
-      "Ignition & spread",
-      "Fire impacts",
-      "Earth system feedbacks"
-    ],
-    "source": "https://doi.org/10.1029/2018MS001368",
-    "figure": "assets/research/resfire-model-framework.png",
-    "figureAlt": "RESFire framework showing fire occurrence and spread under natural and anthropogenic constraints, followed by fire impacts connecting emissions, ecosystem disturbance, and the radiation budget.",
-    "figureCaption": "RESFire model framework linking fire occurrence, fire spread, and fire impacts. Natural and anthropogenic constraints influence ignition and spread, while fire impacts connect emissions, ecosystem disturbance, and the radiation budget. Figure from Zou et al. (2019), supplied by the lab.",
-    "figureWidth": 2128,
-    "figureHeight": 1025
-  },
-  {
-    "id": "climate-feedbacks",
-    "match": "Using CESM-RESFire",
-    "title": "Exploring climate–fire–ecosystem interactions",
-    "summary": "Using CESM-RESFire, this collaborative work investigates interactions among climate, fire, and ecosystems and their implications for decadal climate variability. Coupled modeling provides a way to examine feedbacks that cannot be represented by treating fire and climate as independent processes.",
-    "steps": [
-      "Climate variability",
-      "Fire & ecosystems",
-      "Coupled feedbacks"
-    ],
-    "source": "https://acp.copernicus.org/articles/20/995/2020/",
-    "figure": "assets/research/cesm-resfire-global-results.png",
-    "figureAlt": "Four global maps from the CESM-RESFire study, with blue-to-red color scales and crosshatched regions showing spatial patterns in simulation results.",
-    "figureCaption": "Global spatial patterns from the CESM-RESFire climate–fire–ecosystem study. Figure from Zou et al. (2020), supplied by the lab.",
-    "figureWidth": 2067,
-    "figureHeight": 1308
   }
 ]

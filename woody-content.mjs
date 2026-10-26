@@ -5,8 +5,7 @@ const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;')
 export function woodyContent({intro,publicationArchive,archiveEntry}) {
   const topics=[
     {id:'distributions',title:'Species Distributions and Range Shifts',question:'Where will encroaching woody plants find suitable conditions as climate changes?',methods:['Species distribution modeling','Climate scenarios','Southern Great Plains']},
-    {id:'hydrology',title:'Woody Expansion and Water Resources',question:'How does increasing woody cover affect streamflow and water availability?',methods:['SWAT+ modeling','Forest expansion','Watershed processes']},
-    {id:'carbon',title:'Carbon–Water Trade-offs and Ecosystem Response',question:'How does woody encroachment alter carbon and water exchange and ecosystem responses to weather extremes?',methods:['Carbon and water exchange','Water-use efficiency','Weather extremes','Ecosystem stability']}
+    {id:'hydrology',title:'Woody Expansion and Water Resources',question:'How does increasing woody cover affect streamflow and water availability?',methods:['SWAT+ modeling','Forest expansion','Watershed processes']}
   ];
   const papers=features.map(feature=>{
     const citation=publicationArchive.find(p=>p.citation.toLowerCase().includes(feature.match.toLowerCase()));

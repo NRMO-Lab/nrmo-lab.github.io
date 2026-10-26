@@ -7,8 +7,7 @@ export function waterContent({intro,publicationArchive,archiveEntry}) {
     {id:'watersheds',title:'Watersheds and Climate Change',question:'How will changing climate and land cover reshape river flow and water availability?',methods:['Watershed modeling','Climate scenarios','Streamflow']},
     {id:'forests',title:'Forests and Water Resources',question:'What do forest restoration and land cover change mean for water storage and recharge?',methods:['Afforestation','Water storage','Groundwater recharge']},
     {id:'irrigation',title:'Irrigation and Agricultural Water Use',question:'How will agricultural water requirements change in a warming climate?',methods:['Crop water requirements','Climate projections','Irrigation planning']},
-    {id:'observations',title:'Soil Moisture Mapping',question:'How can observations and models improve our understanding of land-surface water dynamics?',methods:['Earth observation','Spatiotemporal datasets','Soil moisture mapping']},
-    {id:'exports',title:'Riverine Carbon and Nutrient Transport',question:'How do climate and human activities influence what rivers carry downstream?',methods:['Ecosystem modeling','Carbon export','Nitrogen loading']}
+    {id:'observations',title:'Soil Moisture Mapping',question:'How can observations and models improve our understanding of land-surface water dynamics?',methods:['Earth observation','Spatiotemporal datasets','Soil moisture mapping']}
   ];
   const papers=features.map(feature=>{
     const citation=publicationArchive.find(p=>p.citation.toLowerCase().includes(feature.match.toLowerCase()));
