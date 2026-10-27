@@ -77,11 +77,12 @@ returnToTop.addEventListener('click',()=>{
   window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
 });
 
-// Research navigation opens with a mouse or the native keyboard/touch control.
-document.querySelectorAll('.research-navigation').forEach(researchNavigation=>{
- researchNavigation.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')researchNavigation.open=true;});
- researchNavigation.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'&&!researchNavigation.contains(document.activeElement))researchNavigation.open=false;});
- researchNavigation.addEventListener('focusout',event=>{if(!researchNavigation.contains(event.relatedTarget))researchNavigation.open=false;});
- document.addEventListener('click',event=>{if(!researchNavigation.contains(event.target))researchNavigation.open=false;});
- researchNavigation.addEventListener('keydown',event=>{if(event.key==='Escape'){researchNavigation.open=false;researchNavigation.querySelector('summary').focus();}});
+// Native details toggles handle touch; hover is enabled only on desktop pointers.
+const desktopNavigationHover=()=>window.matchMedia('(min-width: 761px) and (hover: hover) and (pointer: fine)').matches;
+document.querySelectorAll('.research-navigation').forEach(dropdown=>{
+ dropdown.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse'&&desktopNavigationHover())dropdown.open=true;});
+ dropdown.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'&&desktopNavigationHover()&&!dropdown.contains(document.activeElement))dropdown.open=false;});
+ // Do not close on focusout: touch browsers may blur the summary before a link click.
+ document.addEventListener('click',event=>{if(!dropdown.contains(event.target))dropdown.open=false;});
+ dropdown.addEventListener('keydown',event=>{if(event.key==='Escape'){dropdown.open=false;dropdown.querySelector('summary').focus();}});
 });
