@@ -40,3 +40,7 @@ Unused trial photographs, superseded diagrams, extraction files, and redundant l
 The build generates sitemap.xml for all eight public pages and robots.txt referencing it. Each page has a canonical URL, description, and index/follow metadata. No indexing or ranking is guaranteed.
 
 After publishing, add https://nrmo-lab.github.io/ as a URL-prefix property in Google Search Console. Download Google's ownership verification HTML file and place it in the repository root without changing its filename or contents; it is preserved by the build. Publish it, complete verification, then submit sitemap.xml and request homepage indexing through URL Inspection. A Google verification meta tag must be added to the build template if using that method instead.
+
+Each decision support tool has its own generated page: fire-potential.html, fire-forecast.html, prescribed-fire-planning.html, and cotton-irrigation.html. Tool metadata, status, and embeds live in decision-support-content.mjs. Homepage and overview cards link directly to these pages. All twelve public pages are included in the sitemap.
+
+The Decision Support overview page has been removed. The shared Decision Support dropdown links directly to the four tool pages; homepage cards provide the same links. The sitemap includes eleven public pages.
