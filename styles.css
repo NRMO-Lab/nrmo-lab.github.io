@@ -338,3 +338,11 @@
 .tool-page-hero h1{font-size:clamp(44px,5vw,70px);line-height:1.08}.tool-page-hero .lead{font-size:18px;line-height:1.75}@media(max-width:760px){.tool-page-hero h1{font-size:42px}.tool-page-hero .lead{font-size:16px;line-height:1.75}}
 
 @media(max-width:760px){#navigation .research-navigation-links{min-width:0;width:100%;max-width:100%;box-sizing:border-box}#navigation .research-navigation-links a{min-height:44px;display:flex;align-items:center}.research-navigation summary{min-height:44px;touch-action:manipulation}}
+
+.tool-page-hero::before{background-position:var(--tool-position,center);background-size:cover}
+
+/* Theme colors reflect the purpose of each decision tool. */
+.tool-page-hero-fire-potential{background:#7d321a}.tool-page-hero-fire-potential::after{background:linear-gradient(90deg,#6d2818f2,#8a3c23cf 48%,#8a3c2359)}.tool-page-hero-fire-potential .eyebrow{color:#ffdbb5}.tool-page-hero-fire-potential .lead,.tool-page-hero-fire-potential .tool-page-image-credit{color:#fff0e4}
+.tool-page-hero-fire-forecast{background:#735321}.tool-page-hero-fire-forecast::after{background:linear-gradient(90deg,#59401bf2,#80612fcf 48%,#80612f59)}.tool-page-hero-fire-forecast .eyebrow{color:#ffe4a7}.tool-page-hero-fire-forecast .lead,.tool-page-hero-fire-forecast .tool-page-image-credit{color:#fff4db}
+.tool-page-hero-fire-spread{background:#354c31}.tool-page-hero-fire-spread::after{background:linear-gradient(90deg,#233b26f2,#46603bcf 48%,#46603b59)}.tool-page-hero-fire-spread .eyebrow{color:#e3e9b7}.tool-page-hero-fire-spread .lead,.tool-page-hero-fire-spread .tool-page-image-credit{color:#edf4e5}
+.tool-page-hero-irrigation-strategies{background:#174f70}.tool-page-hero-irrigation-strategies::after{background:linear-gradient(90deg,#103b57f2,#216483cf 48%,#21648359)}.tool-page-hero-irrigation-strategies .eyebrow{color:#c4eaff}.tool-page-hero-irrigation-strategies .lead,.tool-page-hero-irrigation-strategies .tool-page-image-credit{color:#e7f5ff}
