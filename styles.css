@@ -333,3 +333,6 @@
 
 /* Consistent banner dimensions and typography across all four tool pages. */
 .tool-page-hero{height:460px;display:flex;flex-direction:column}.tool-page-hero::before{background-size:cover;background-position:center 60%}.tool-page-hero .tool-page-back{flex:none}.tool-page-hero .page-intro{flex:1;padding-top:38px;padding-bottom:24px;display:flex;flex-direction:column;justify-content:center}.tool-page-hero h1{font-size:52px;line-height:1.12;margin-bottom:22px}.tool-page-hero .lead{font-size:18px;line-height:1.65}.tool-page-hero .eyebrow{font-size:10px;margin-bottom:20px}.tool-page-image-credit{flex:none;font-size:10px;line-height:1.5;padding-bottom:18px}@media(max-width:760px){.tool-page-hero{height:510px}.tool-page-hero .page-intro{padding-top:24px;padding-bottom:24px}.tool-page-hero h1{font-size:38px;line-height:1.15}.tool-page-hero .lead{font-size:16px;line-height:1.6}.tool-page-image-credit{font-size:9px}}
+
+/* Match research-page banner typography. */
+.tool-page-hero h1{font-size:clamp(44px,5vw,70px);line-height:1.08}.tool-page-hero .lead{font-size:18px;line-height:1.75}@media(max-width:760px){.tool-page-hero h1{font-size:42px}.tool-page-hero .lead{font-size:16px;line-height:1.75}}
