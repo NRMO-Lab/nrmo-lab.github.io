@@ -3,7 +3,12 @@ export const decisionTools=[
     {id:'fire-forecast',bannerImage:'assets/decision-weather-monitoring.webp',bannerPosition:'center 46%',bannerCredit:'Weather monitoring · Cindy Cunningham / USGS · Public domain',bannerSource:'https://www.usgs.gov/media/images/weather-station',page:'fire-forecast.html',potentialUsers:'Fire managers, emergency preparedness teams, and prescribed burn planners',image:'assets/tool-weather-satellite.webp',imagePosition:'center',imageCredit:'NOAA / NESDIS · Satellite weather imagery',title:'Hourly Fire Potential Forecast',description:'Explore hourly forecasts of fire potential to support wildfire preparedness and management.'},
     {id:'fire-spread',bannerImage:'assets/decision-prescribed-burn.webp',bannerPosition:'center 61%',bannerCredit:'Prescribed burn · Emily Hodapp / USFWS · Public domain',bannerSource:'https://www.fws.gov/media/grassland-prescribed-fire',page:'prescribed-fire-planning.html',available:false,demo:true,url:'https://burnplan.github.io/',potentialUsers:'Prescribed burn planners, fire behavior analysts, and land managers',image:'assets/tool-prescribed-fire.webp',imagePosition:'center 64%',imageCredit:'Okefenokee NWR / USFWS',title:'Prescribed Fire Planning',description:'Simulate potential fire spread to support prescribed-fire planning.'},
     {id:'irrigation-strategies',bannerImage:'assets/decision-cotton-irrigation.webp',bannerPosition:'center 57%',bannerCredit:'Cotton irrigation · Katie Nichols / Alabama Extension · CC0',bannerSource:'https://commons.wikimedia.org/wiki/File:Irrigation_in_Cotton_Field_-_51488231980.jpg',page:'cotton-irrigation.html',potentialUsers:'Cotton growers, irrigation managers, and agricultural extension specialists',image:'assets/oklahoma-furrow-irrigation-high-resolution.jpg',imagePosition:'center 40%',imageCredit:'Saleh Taghvaeian / OSU Extension',title:'Cotton Yield and Irrigation Strategies',description:'Explore cotton yield and irrigation strategies to inform agricultural water management.'}
-  ];
+  ].map(tool => ({
+    ...tool,
+    image: tool.bannerImage,
+    imagePosition: tool.bannerPosition,
+    imageCredit: tool.bannerCredit
+  }));
 
 export function decisionToolContent(tool,{intro}) {
   const description=tool.id==='fire-potential'?'Explore current fire danger, fuel moisture, potential fire behavior, and weather conditions to support wildfire management.':tool.description;
@@ -12,3 +17,4 @@ export function decisionToolContent(tool,{intro}) {
   const embed=tool.url?`<div class="decision-simulation-embed"><a class="text-link" href="${tool.url}" target="_blank" rel="noopener noreferrer">Open in a new tab ↗</a><iframe src="${tool.url}" title="${tool.title}${tool.demo?' demonstration':''}" loading="lazy" allow="fullscreen" allowfullscreen></iframe></div>`:'';
   return `<div class="tool-page-hero tool-page-hero-${tool.id}" style="--tool-image:url('${tool.bannerImage}');--tool-position:${tool.bannerPosition}">${intro('DECISION SUPPORT',tool.title,description)}<div class="wrap tool-page-image-credit"><a href="${tool.bannerSource}" target="_blank" rel="noopener noreferrer">${tool.bannerCredit}</a></div></div>`+`<section class="wrap tool-page-body" aria-label="${tool.title}">${status}${demo}${embed}</section>`;
 }
+
