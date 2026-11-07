@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-11",
+    "category": "Decision Support",
+    "title": "OKBurnPlan enters testing for prescribed-fire planning in Oklahoma",
+    "summary": "The NRMO Lab has developed OKBurnPlan, a new decision-support system designed to support prescribed-fire planning in Oklahoma. The interactive workspace allows users to define a burn simulation area, specify an ignition point, line, or polygon, and select a simulation period. Users with project-provided accounts can submit requests and track their simulations. The system is now in the testing stage and is also embedded in the Prescribed Fire Planning page of our lab website. The current version is experimental and is not yet intended for operational burn planning or management decisions.",
+    "website": "https://burnplan.github.io/",
+    "websiteLabel": "Explore OKBurnPlan (testing version)"
+  },
+  {
+    "date": "2026-11",
     "category": "People",
     "title": "Xiaohao Jiao completes MS defense and will continue in the NRMO Lab as a PhD student",
     "summary": "Congratulations to Xiaohao Jiao on successfully completing his MS defense in November 2026! Xiaohao has accepted an offer to pursue his PhD in the NRMO Lab beginning in Spring 2027. We are excited that he will remain with our team and look forward to supporting his continued growth and research."
